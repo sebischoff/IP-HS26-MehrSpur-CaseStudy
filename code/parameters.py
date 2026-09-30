@@ -4,6 +4,8 @@ parameters.py
 Model inputs, corridor definitions and assumptions for the SBB MehrSpur
 Zürich–Winterthur infrastructure analysis.
 
+This line serves as a Git collaboration test
+
 HOW TO USE
 ----------
 Import assumptions and corridor definitions wherever the model needs them:
