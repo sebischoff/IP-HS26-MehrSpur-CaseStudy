@@ -63,6 +63,7 @@ asset lifetimes does not require a surrogate rebuild. Rerun appraisal to include
        ]
 
 
+       
 2. Mode-Specific Physical Interventions
    Effects are defined under specific mode keys which target different transport networks:
    - "railway_expansions": A list of railway interventions. The section/service
@@ -143,9 +144,65 @@ from copy import deepcopy
 import itertools
 from math import isfinite
 
+PACKAGES = { #WIE MODE SPEZIFIZIEREN -> "bike_highways" spezifiziert den Mode! #FÜR JEDE AREA EIN ABSCHNITT?  
+    "bike_highways": {
+        
+        "name": "STAGE 1 - Limmattal_bike_highway", 
+            "area_pairs": [
+                {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn 
+                #{"origin": {"municipality_name": "Schlieren"}, "destination": {"municipality_name": "Unterengstringen"}},
+                #{"origin": {"municipality_name": "Unterengstringen"}, "destination": {"municipality_name": "Dietikon"}},
+            ],
+
+        "both_directions": True,
+
+        "effects": {
+            # "travel_time_reduction_pct": 15.0, # ???
+            "distance_reduction_pct": 5.0, # Report -> 5%
+            "speed_increase_pct": 23.0 # Report -> Unterschied 13 km/h zu 16 km/h (letzteres evlt. anpassen?!)
+        },
+        "appraisal": {
+            "capital_cost_chf": 28690972, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
+            "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
+            "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+            #WICHTIG: operational costs! 156672 CHF
+            # "construction_co2_tonnes": 0.0  # Add a project-specific total when available.
+            # Total construction emissions (tonnes CO2e), spread over construction years.
+            # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
+        }
+        
+    },
+   
+#}
+#PACKAGES = {
+"bike_highways": {
+     
+        "name": "Stage 2 - Limmattal_bike_highway_underpasses",
+        "area_pairs": [
+                {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn
+            ],
+        
+        "both_directions": True,
+        "effects": {
+            # "travel_time_reduction_pct": 15.0, # ???
+            #"distance_reduction_pct": 5.0, # Report -> 5%
+            "speed_increase_pct": 12.50 # (38.50) Relativer Unterschied zu Stage 1 -> Report -> Unterschied 16 km/h zu 18 km/h (letzteres evlt. anpassen?!)
+        },
+        "appraisal": {
+            "capital_cost_chf": 2688120, # Report -> 2688120 
+            "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
+            "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+        }
+    }
+}
+
+
+
+
 # =============================================================================
 # 1. PACKAGES: RAILWAY IMPROVEMENTS, MOBILITY HUBS AND APPRAISAL
 # =============================================================================
+
 PACKAGES = {
     # --- Station package ---
     # ⚠️ STUDENT INSTRUCTION:
