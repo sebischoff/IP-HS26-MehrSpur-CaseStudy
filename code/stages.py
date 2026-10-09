@@ -144,6 +144,7 @@ from copy import deepcopy
 import itertools
 from math import isfinite
 
+"""
 PACKAGES = { #WIE MODE SPEZIFIZIEREN -> "bike_highways" spezifiziert den Mode! #FÜR JEDE AREA EIN ABSCHNITT?  
     "bike_highways": {
         
@@ -195,7 +196,7 @@ PACKAGES = { #WIE MODE SPEZIFIZIEREN -> "bike_highways" spezifiziert den Mode! #
         }
     }
 }
-
+"""
 
 
 
@@ -204,6 +205,7 @@ PACKAGES = { #WIE MODE SPEZIFIZIEREN -> "bike_highways" spezifiziert den Mode! #
 # =============================================================================
 
 PACKAGES = {
+    
     # --- Station package ---
     # ⚠️ STUDENT INSTRUCTION:
     # The station and tunnel packages are SBB MehrSpur-specific examples.
@@ -228,6 +230,89 @@ PACKAGES = {
 
 
     "stations": {
+         "name": "STAGE 1 - Limmattal_bike_highway", 
+        # "railway_expansions": [],
+        # "mobility_hubs": [],
+         "bike_highways": [
+        {
+            "area_pairs": [
+                {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn 
+                #{"origin": {"municipality_name": "Schlieren"}, "destination": {"municipality_name": "Unterengstringen"}},
+                #{"origin": {"municipality_name": "Unterengstringen"}, "destination": {"municipality_name": "Dietikon"}},
+            ],
+            
+            "both_directions": True,
+            
+            "effects": {
+                # "travel_time_reduction_pct": 15.0, # ???
+                "distance_reduction_pct": 5.0, # Report -> 5%
+                "speed_increase_pct": 23.0 # Report -> Unterschied 13 km/h zu 16 km/h (letzteres evlt. anpassen?!)
+            },
+        }
+         ],
+        "appraisal": {
+            "capital_cost_chf": 28690972, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
+            "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
+            "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+            #WICHTIG: operational costs! 156672 CHF
+            # "construction_co2_tonnes": 0.0  # Add a project-specific total when available.
+            # Total construction emissions (tonnes CO2e), spread over construction years.
+            # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
+        },
+    },
+  
+  
+    # --- Tunnel package ---
+    # Core Tunnel & Winterthur Hub Package (A0 Gesamt, A1 Winterthur, A2 Tunnel)
+    #
+    # ⚠️ STUDENT INSTRUCTION:
+    # Replace this package with your own long-term or secondary interventions.
+    #
+    # SBB MehrSpur tunnel scope (opening dates are configured in adaptive_planning.py):
+    #
+    #       A0 Gesamtprojekt: System-wide technical integration,
+    #       ETCS Level 2 signaling, traction power supply, and overall project management.
+    #
+    #       A1 Winterthur: Major track layout reconfiguration at Winterthur HB,
+    #       adding grade-separated flyovers, extended platforms, and conflict-free routing.
+    #
+    #       A2 Tunnel: 8.3 km twin-tube Brüttenertunnel cutting directly between
+    #       Dietlikon/Bassersdorf and Winterthur, bypassing the curvy Effretikon bottleneck.
+    #
+    # Transport & Economic Impact:
+    #       Saves 4 minutes on covered routes and raises the comfort threshold by 15%.
+    #       Provides 17-minute service and the Winterthur hub improvements;
+    #       both packages together provide 15-minute service.
+    
+    "tunnel": {
+         "name": "Stage 2 - Limmattal_bike_highway_underpasses",
+       # "railway_expansions": [],
+       # "mobility_hubs": [],
+         "bike_highways": [
+        {
+            "area_pairs": [
+                    {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn
+                ],
+            
+            "both_directions": True,
+            "effects": {
+                # "travel_time_reduction_pct": 15.0, # ???
+                #"distance_reduction_pct": 5.0, # Report -> 5%
+                "speed_increase_pct": 12.50 # (38.50) Relativer Unterschied zu Stage 1 -> Report -> Unterschied 16 km/h zu 18 km/h (letzteres evlt. anpassen?!)
+            },
+        }
+        ],   
+        "appraisal": {
+            "capital_cost_chf": 2688120, # Report -> 2688120 
+            "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
+            "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+        }
+    }
+}    
+
+                  
+                  
+"""
         "name": "Stage 1 – Local Stations & Access Package",
 
         # Railway improvements
@@ -275,30 +360,9 @@ PACKAGES = {
             # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
             # "construction_co2_tonnes": 0.0,  # Add a project-specific total when available.
         },
-    },
+"""
 
-    # --- Tunnel package ---
-    # Core Tunnel & Winterthur Hub Package (A0 Gesamt, A1 Winterthur, A2 Tunnel)
-    #
-    # ⚠️ STUDENT INSTRUCTION:
-    # Replace this package with your own long-term or secondary interventions.
-    #
-    # SBB MehrSpur tunnel scope (opening dates are configured in adaptive_planning.py):
-    #
-    #       A0 Gesamtprojekt: System-wide technical integration,
-    #       ETCS Level 2 signaling, traction power supply, and overall project management.
-    #
-    #       A1 Winterthur: Major track layout reconfiguration at Winterthur HB,
-    #       adding grade-separated flyovers, extended platforms, and conflict-free routing.
-    #
-    #       A2 Tunnel: 8.3 km twin-tube Brüttenertunnel cutting directly between
-    #       Dietlikon/Bassersdorf and Winterthur, bypassing the curvy Effretikon bottleneck.
-    #
-    # Transport & Economic Impact:
-    #       Saves 4 minutes on covered routes and raises the comfort threshold by 15%.
-    #       Provides 17-minute service and the Winterthur hub improvements;
-    #       both packages together provide 15-minute service.
-    "tunnel": {
+"""
         "name": "Stage 2 - Tunnel & Winterthur Hub only",
 
         # Railway improvements: the same section and service OD scope as above.
@@ -333,8 +397,59 @@ PACKAGES = {
             "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
             "construction_co2_tonnes": 300_000.0,  # Total construction emissions (tonnes CO2e).
         },
-    },
+   
+
+    "bike_highways": {
+            
+            "name": "STAGE 1 - Limmattal_bike_highway", 
+                "area_pairs": [
+                    {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn 
+                    #{"origin": {"municipality_name": "Schlieren"}, "destination": {"municipality_name": "Unterengstringen"}},
+                    #{"origin": {"municipality_name": "Unterengstringen"}, "destination": {"municipality_name": "Dietikon"}},
+                ],
+    
+            "both_directions": True,
+    
+            "effects": {
+                # "travel_time_reduction_pct": 15.0, # ???
+                "distance_reduction_pct": 5.0, # Report -> 5%
+                "speed_increase_pct": 23.0 # Report -> Unterschied 13 km/h zu 16 km/h (letzteres evlt. anpassen?!)
+            },
+            "appraisal": {
+                "capital_cost_chf": 28690972, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
+                "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
+                "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+                #WICHTIG: operational costs! 156672 CHF
+                # "construction_co2_tonnes": 0.0  # Add a project-specific total when available.
+                # Total construction emissions (tonnes CO2e), spread over construction years.
+                # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
+            }
+            
+        },
+       
+    #}
+    #PACKAGES = {
+    "bike_highways": {
+         
+            "name": "Stage 2 - Limmattal_bike_highway_underpasses",
+            "area_pairs": [
+                    {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn
+                ],
+            
+            "both_directions": True,
+            "effects": {
+                # "travel_time_reduction_pct": 15.0, # ???
+                #"distance_reduction_pct": 5.0, # Report -> 5%
+                "speed_increase_pct": 12.50 # (38.50) Relativer Unterschied zu Stage 1 -> Report -> Unterschied 16 km/h zu 18 km/h (letzteres evlt. anpassen?!)
+            },
+            "appraisal": {
+                "capital_cost_chf": 2688120, # Report -> 2688120 
+                "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
+                "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+            }
+        }
 }
+"""
 
 # =============================================================================
 # 2. COMBINED-ONLY BENEFITS
@@ -361,6 +476,11 @@ COMBINED_EFFECTS = {
     # Other supported keys: bike_highways, road_capacity.
     # Specify frequency changes above, to apply their waiting benefit only once.
 }
+
+
+
+
+
 
 
 # =============================================================================
