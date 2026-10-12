@@ -234,22 +234,27 @@ PACKAGES = {
         # "railway_expansions": [],
         # "mobility_hubs": [],
          "bike_highways": [
-        {
-            "area_pairs": [
-                {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn 
-                #{"origin": {"municipality_name": "Schlieren"}, "destination": {"municipality_name": "Unterengstringen"}},
-                #{"origin": {"municipality_name": "Unterengstringen"}, "destination": {"municipality_name": "Dietikon"}},
-            ],
-            
-            "both_directions": True,
-            
-            "effects": {
-                # "travel_time_reduction_pct": 15.0, # ???
-                "distance_reduction_pct": 5.0, # Report -> 5%
-                "speed_increase_pct": 23.0 # Report -> Unterschied 13 km/h zu 16 km/h (letzteres evlt. anpassen?!)
+            {
+                "name": "Dietikon-Schlieren TT reduction 23",
+                "area_pairs": [
+                    {"origin": {"municipality_name": "Dietikon"},
+                     "destination": {"municipality_name": "Schlieren"}}
+                ],
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
             },
-        }
-         ],
+            {
+                "name": "Schlieren-Zürich TT reduction 23",
+                "area_pairs": [
+                    {"origin": {"municipality_name": "Schlieren"},
+                     "destination": {"municipality_name": "Zürich"}}
+                ],
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
+            },
+        ],
+           # },
+     #   ],
         "appraisal": {
             "capital_cost_chf": 28690972, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
             "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
@@ -289,19 +294,38 @@ PACKAGES = {
        # "railway_expansions": [],
        # "mobility_hubs": [],
          "bike_highways": [
-        {
-            "area_pairs": [
-                    {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn
+            {
+                "name": "Dietikon-Schlieren TT reduction 23",
+                "area_pairs": [
+                    {"origin": {"municipality_name": "Dietikon"},
+                     "destination": {"municipality_name": "Schlieren"}}
                 ],
-            
-            "both_directions": True,
-            "effects": {
-                # "travel_time_reduction_pct": 15.0, # ???
-                #"distance_reduction_pct": 5.0, # Report -> 5%
-                "speed_increase_pct": 12.50 # (38.50) Relativer Unterschied zu Stage 1 -> Report -> Unterschied 16 km/h zu 18 km/h (letzteres evlt. anpassen?!)
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.4},
             },
-        }
+            {
+                "name": "Schlieren-Zürich TT reduction 23",
+                "area_pairs": [
+                    {"origin": {"municipality_name": "Schlieren"},
+                     "destination": {"municipality_name": "Zürich"}}
+                ],
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.4},
+            },
         ],   
+       # {
+       #     "area_pairs": [
+       #             {"origin": {"city_quartier": "Altstetten"}, "destination": {"municipality_name": "Dietikon"}} # Begründung: Nach Zürich ist die grösste Nachfrage! Unterteilung macht daher begrenzt Sinn
+       #         ],
+       #     
+       #     "both_directions": True,
+       #     "effects": {
+       #         # "travel_time_reduction_pct": 15.0, # ???
+       #         #"distance_reduction_pct": 5.0, # Report -> 5%
+       #         "speed_increase_pct": 12.50 # (38.50) Relativer Unterschied zu Stage 1 -> Report -> Unterschied 16 km/h zu 18 km/h (letzteres evlt. anpassen?!)
+       #     },
+       # }
+       # ],   
         "appraisal": {
             "capital_cost_chf": 2688120, # Report -> 2688120 
             "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
@@ -458,13 +482,33 @@ PACKAGES = {
 # are added to the package values: 6 minutes of section saving and 5 minutes
 # of headway reduction in total (20-minute baseline -> 15-minute service).
 COMBINED_EFFECTS = {
-    "railway_expansions": [
+     "bike_highways": [
         {
-            "section_time_saving_min": 1.0,
-            "headway_reduction_min": 1.0,
-            "capacity_increase": 0.05,  # Extra fraction of baseline capacity, only when both packages operate.
+            "name": "Dietikon-Schlieren TT reduction ",
+            "area_pairs": [
+                {"origin": {"municipality_name": "Dietikon"},
+                    "destination": {"municipality_name": "Schlieren"}}
+            ],
+            "both_directions": True,
+            "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
+        },
+        {
+            "name": "Schlieren-Zürich TT reduction ",
+            "area_pairs": [
+                {"origin": {"municipality_name": "Schlieren"},
+                    "destination": {"municipality_name": "Zürich"}}
+            ],
+            "both_directions": True,
+            "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
         },
     ],
+   # "railway_expansions": [
+   #     {
+   #         "section_time_saving_min": 1.0,
+   #         "headway_reduction_min": 1.0,
+   #         "capacity_increase": 0.05,  # Extra fraction of baseline capacity, only when both packages operate.
+   #     },
+   # ],
     # Capacity increases are additive: +10% stations +15% tunnel +5% combined = +30% of baseline.
     # Additional physical interventions can use the same dictionaries as above:
     # "mobility_hubs": [{
