@@ -114,33 +114,33 @@ DEFAULT_TRIGGERS = {
 PLAN_DEFINITIONS = {
     "baseline": {
         "name": "Baseline",
-        "initial_packages": [], "stations": None, "tunnel": None,
+        "initial_packages": [], "cycleway": None, "underpasses": None,
     },
     "static1": {
         "name": "Static 1",
-        "initial_packages": ["stations"], "stations": None, "tunnel": None,
+        "initial_packages": ["cycleway"], "cycleway": None, "underpasses": None,
     },
     "static2": {
         "name": "Static 2",
-        "initial_packages": ["stations", "tunnel"], "stations": None, "tunnel": None,
+        "initial_packages": ["cycleway", "underpasses"], "cycleway": None, "underpasses": None,
     },
     "staged1": {
         "name": "Staged 1",
         "initial_packages": [],
-        "stations": {"type": "fixed", "opening_year": 8},
-        "tunnel": {"type": "fixed", "opening_year": 11},
+        "cycleway": {"type": "fixed", "opening_year": 8},
+        "underpasses": {"type": "fixed", "opening_year": 11},
     },
     "staged2": {
         "name": "Staged 2",
         "initial_packages": [],
-        "stations": {"type": "fixed", "opening_year": 6},
-        "tunnel": {"type": "fixed", "opening_year": 15},
+        "cycleway": {"type": "fixed", "opening_year": 6},
+        "underpasses": {"type": "fixed", "opening_year": 15},
     },
     "flexible": {
         "name": "Flexible",
         "initial_packages": [],
-        "stations": {"type": "trigger", "trigger": "trigger1"},
-        "tunnel": {"type": "trigger", "trigger": "trigger2"},
+        "cycleway": {"type": "trigger", "trigger": "trigger1"},
+        "underpasses": {"type": "trigger", "trigger": "trigger2"},
     },
 }
 
@@ -267,7 +267,7 @@ def advance_trigger(year, active, opening, persistence, previous, rule, *, thres
 def construction_lead_time(plan_def: dict, package: int, params: dict | None = None) -> int:
     """Construction duration: the package rule, or its default trigger lead time."""
     if package not in (1, 2):
-        raise ValueError("Construction package must be 1 (stations) or 2 (tunnel).")
+        raise ValueError("Construction package must be 1 (cycleway) or 2 (underpasses).")
     transition = plan_def.get(f"to{package}") or {}
     lead = transition.get("lead_time", get_triggers(params)[f"trigger{package}"]["lead_time"])
     if isinstance(lead, bool) or not isinstance(lead, Integral) or lead < 0:
@@ -305,7 +305,7 @@ def _describe_plan(spec: dict) -> str:
     parts = []
     if spec["initial_stage"]:
         parts.append(f"{stages.STATE_LABELS[spec['initial_stage']]} from Year 1")
-    for key, package in (("to1", "Stations"), ("to2", "Tunnel")):
+    for key, package in (("to1", "Cycleway"), ("to2", "Underpasses")):
         transition = spec[key]
         if transition is None:
             continue
@@ -336,16 +336,16 @@ def get_plans(params: dict | None = None, triggers: dict | None = None) -> dict:
     for key, definition in deepcopy(PLAN_DEFINITIONS).items():
         initial_packages = definition["initial_packages"]
         if (not isinstance(initial_packages, (list, tuple))
-                or any(package not in ("stations", "tunnel") for package in initial_packages)
+                or any(package not in ("cycleway", "underpasses") for package in initial_packages)
                 or len(set(initial_packages)) != len(initial_packages)):
-            raise ValueError(f"Plan '{key}': initial_packages must list 'stations' and/or 'tunnel' once each.")
+            raise ValueError(f"Plan '{key}': initial_packages must list 'cycleway' and/or 'underpasses' once each.")
         spec = {
             "name": definition["name"],
             "initial_stage": stages.state_for_components(
-                "stations" in initial_packages, "tunnel" in initial_packages
+                "cycleway" in initial_packages, "underpasses" in initial_packages
             ),
         }
-        for package, transition_name in (("stations", "to1"), ("tunnel", "to2")):
+        for package, transition_name in (("cycleway", "to1"), ("underpasses", "to2")):
             transition = definition[package]
             if package in initial_packages and transition is not None:
                 raise ValueError(f"Plan '{key}': {package} is initially open and cannot also have an opening rule.")
@@ -367,7 +367,7 @@ def get_plans(params: dict | None = None, triggers: dict | None = None) -> dict:
         spec["description"] = _describe_plan(spec)
         spec["name"] += " — " + spec["description"]
         initial_stage = spec["initial_stage"]
-        stations_initial, tunnel_initial = stages.stage_components(initial_stage)
+        cycleway_initial, underpasses_initial = stages.stage_components(initial_stage)
         option_premium_stage1 = (
             c_flex
             if spec["to1"] is not None and spec["to1"]["type"] == "trigger"
@@ -396,16 +396,16 @@ def get_plans(params: dict | None = None, triggers: dict | None = None) -> dict:
             "option_premium_stage2": option_premium_stage2,
             "upfront_fee": option_premium_stage1 + option_premium_stage2,
             "inv_stage1": (
-                c_inv1 if stations_initial or spec["to1"] is not None else 0.0
+                c_inv1 if cycleway_initial or spec["to1"] is not None else 0.0
             ),
             "op_stage1": (
-                c_op1 if stations_initial or spec["to1"] is not None else 0.0
+                c_op1 if cycleway_initial or spec["to1"] is not None else 0.0
             ),
             "inv_stage2": (
-                c_inv2 if tunnel_initial or spec["to2"] is not None else 0.0
+                c_inv2 if underpasses_initial or spec["to2"] is not None else 0.0
             ),
             "op_stage2": (
-                c_op2 if tunnel_initial or spec["to2"] is not None else 0.0
+                c_op2 if underpasses_initial or spec["to2"] is not None else 0.0
             ),
         })
         plans[key] = spec
@@ -416,16 +416,16 @@ def get_plans(params: dict | None = None, triggers: dict | None = None) -> dict:
 def get_reference_plan(stage: int, params: dict | None = None) -> dict:
     """Return a constant-state plan for annual lookup construction."""
     params = NOMINAL_PARAMS if params is None else params
-    stations_active, tunnel_active = stages.stage_components(stage)
+    cycleway_active, underpasses_active = stages.stage_components(stage)
     costs = get_plans(params)["static2"]
     return {
         "name": stages.STATE_LABELS[stage],
         "initial_stage": stage, "to1": None, "to2": None,
         "upfront_fee": 0.0,
-        "inv_stage1": costs["inv_stage1"] if stations_active else 0.0,
-        "op_stage1": costs["op_stage1"] if stations_active else 0.0,
-        "inv_stage2": costs["inv_stage2"] if tunnel_active else 0.0,
-        "op_stage2": costs["op_stage2"] if tunnel_active else 0.0,
+        "inv_stage1": costs["inv_stage1"] if cycleway_active else 0.0,
+        "op_stage1": costs["op_stage1"] if cycleway_active else 0.0,
+        "inv_stage2": costs["inv_stage2"] if underpasses_active else 0.0,
+        "op_stage2": costs["op_stage2"] if underpasses_active else 0.0,
     }
 
 
@@ -561,15 +561,15 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
     capex_traj = uc.target_path(paths, "CAPEX_MULTIPLIER")
 
     stage = plan_def["initial_stage"]
-    stations_initial, tunnel_initial = stages.stage_components(stage)
-    stations_active, tunnel_active = stations_initial, tunnel_initial
+    cycleway_initial, underpasses_initial = stages.stage_components(stage)
+    cycleway_active, underpasses_active = cycleway_initial, underpasses_initial
     decision1_year = activation1_year = None
     decision2_year = activation2_year = None
     persist1 = persist2 = 0
     prev_metrics = {}
     # Actual openings differ from scheduled activation years when construction
     # would finish beyond the horizon. Residuals use only commissioned assets.
-    opening_years = {1: 1 if stations_initial else None, 2: 1 if tunnel_initial else None}
+    opening_years = {1: 1 if cycleway_initial else None, 2: 1 if underpasses_initial else None}
     capital_paid = {1: 0.0, 2: 0.0}
     construction_leads = {package: construction_lead_time(plan_def, package, params) for package in (1, 2)}
 
@@ -579,34 +579,34 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
         year = t + 1
 
         # ---- fixed-year transitions (deterministic, no lag needed) --------
-        if to1 and to1["type"] == "fixed" and not stations_active and year == to1["year"]:
-            stations_active = True
+        if to1 and to1["type"] == "fixed" and not cycleway_active and year == to1["year"]:
+            cycleway_active = True
             activation1_year = year
-        if to2 and to2["type"] == "fixed" and not tunnel_active and year == to2["year"]:
-            tunnel_active = True
+        if to2 and to2["type"] == "fixed" and not underpasses_active and year == to2["year"]:
+            underpasses_active = True
             activation2_year = year
 
         # ---- triggered transitions (based on the PREVIOUS year's signpost) --
         if to1 and to1["type"] == "trigger":
             val1 = (_previous_signpost(prev_metrics, to1, "Station-package trigger")
-                    if not stations_active and activation1_year is None else None)
-            stations_active, opening, persist1, decided, _ = advance_trigger(
-                year, stations_active, activation1_year or 0, persist1, val1, to1)
-            stations_active, persist1 = bool(stations_active), int(persist1)
+                    if not cycleway_active and activation1_year is None else None)
+            cycleway_active, opening, persist1, decided, _ = advance_trigger(
+                year, cycleway_active, activation1_year or 0, persist1, val1, to1)
+            cycleway_active, persist1 = bool(cycleway_active), int(persist1)
             activation1_year = int(opening) or None
             if decided:
                 decision1_year = year
 
         if to2 and to2["type"] == "trigger":
             val2 = (_previous_signpost(prev_metrics, to2, "Tunnel-package trigger")
-                    if not tunnel_active and activation2_year is None else None)
-            tunnel_active, opening, persist2, decided, _ = advance_trigger(
-                year, tunnel_active, activation2_year or 0, persist2, val2, to2)
-            tunnel_active, persist2 = bool(tunnel_active), int(persist2)
+                    if not underpasses_active and activation2_year is None else None)
+            underpasses_active, opening, persist2, decided, _ = advance_trigger(
+                year, underpasses_active, activation2_year or 0, persist2, val2, to2)
+            underpasses_active, persist2 = bool(underpasses_active), int(persist2)
             activation2_year = int(opening) or None
             if decided:
                 decision2_year = year
-        stage = stages.state_for_components(stations_active, tunnel_active)
+        stage = stages.state_for_components(cycleway_active, underpasses_active)
 
         # ---- simulate this year at the resulting stage ---------------------
         base_m = stage_metrics.get(stage, {})
@@ -636,8 +636,8 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
         upfront_this_year = (upfront_fee * (year_params["C_FLEX"] / params["C_FLEX"] if params["C_FLEX"] else 1.0)
                              * capex_mult if year == 1 else 0.0)
         for package, initially_active, activation_year in (
-            (1, stations_initial, activation1_year),
-            (2, tunnel_initial, activation2_year),
+            (1, cycleway_initial, activation1_year),
+            (2, underpasses_initial, activation2_year),
         ):
             if (year == 1 and initially_active) or activation_year == year:
                 paid = plan_cost(f"inv_stage{package}", f"C_INV_STAGE{package}") * capex_mult
@@ -646,8 +646,8 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
                 opening_years[package] = year
         
         op_this_year = (
-            (plan_operating_cost(1) if stations_active else 0.0)
-            + (plan_operating_cost(2) if tunnel_active else 0.0)
+            (plan_operating_cost(1) if cycleway_active else 0.0)
+            + (plan_operating_cost(2) if underpasses_active else 0.0)
         ) * cost_mult
 
         if transport_emulator is not None:
@@ -674,8 +674,8 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
 
         annual_construction, upfront_construction = 0.0, 0.0
         for package, initially_active, transition, activation in (
-            (1, stations_initial, to1, activation1_year),
-            (2, tunnel_initial, to2, activation2_year),
+            (1, cycleway_initial, to1, activation1_year),
+            (2, underpasses_initial, to2, activation2_year),
         ):
             opening = (1 if initially_active else transition["year"]
                        if transition and transition["type"] == "fixed" else activation or 0)
@@ -694,8 +694,8 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
             "appraisal_residual_version": m.APPRAISAL_RESIDUAL_VERSION,
             "discount_rate": float(year_params["DISCOUNT_RATE"]),
             "stage": stage,
-            "stations_active": stations_active,
-            "tunnel_active": tunnel_active,
+            "cycleway_active": cycleway_active,
+            "underpasses_active": underpasses_active,
             "car_share": row.get("car_share", 0.0),
             "pt_share": row.get("pt_share", 0.0),
             "bike_share": row.get("bike_share", 0.0),

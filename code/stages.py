@@ -229,7 +229,7 @@ PACKAGES = {
     #       Shortens service headway and raises the section comfort threshold.
 
 
-    "stations": {
+    "cycleway": {
          "name": "STAGE 1 - Limmattal_bike_highway", 
         # "railway_expansions": [],
         # "mobility_hubs": [],
@@ -284,7 +284,7 @@ PACKAGES = {
     #       Provides 17-minute service and the Winterthur hub improvements;
     #       both packages together provide 15-minute service.
     
-    "tunnel": {
+    "underpasses": {
          "name": "Stage 2 - Limmattal_bike_highway_underpasses",
        # "railway_expansions": [],
        # "mobility_hubs": [],
@@ -487,7 +487,7 @@ COMBINED_EFFECTS = {
 # INTERNAL ASSEMBLY AND APPRAISAL HELPERS (normally leave unchanged)
 # =============================================================================
 STATE_IDS = (0, 1, 2, 3)
-STATE_LABELS = {0: "Baseline", 1: "Stations only", 2: "Tunnel only", 3: "Stations + tunnel"}
+STATE_LABELS = {0: "Baseline", 1: "Cycleway and underpasses", 2: "Underpasses only", 3: "Cycleway + underpasses"}
 STATE_COLORS = {0: "#9E9E9E", 1: "#FFC107", 2: "#2196F3", 3: "#4CAF50"}
 _STATE_COMPONENTS = {0: (False, False), 1: (True, False), 2: (False, True), 3: (True, True)}
 
@@ -533,7 +533,7 @@ def _railway_od_interventions(package: dict) -> list[dict]:
 def package_parameter_defaults() -> dict:
     """Expose package inputs under the shared appraisal/uncertainty parameter keys."""
     values = {}
-    for number, name in enumerate(("stations", "tunnel"), 1):
+    for number, name in enumerate(("cycleway", "underpasses"), 1):
         package = PACKAGES[name]
         values[f"C_INV_STAGE{number}"] = package["appraisal"]["capital_cost_chf"]
         values[f"CAPACITY_INCREASE_STAGE{number}"] = _package_railway_effect(package, "capacity_increase")
@@ -558,7 +558,7 @@ def package_appraisal_settings() -> dict:
 
 def get_stages(params: dict | None = None, *, packages: dict | None = None,
                combined_effects: dict | None = None) -> dict[int, dict]:
-    """Assemble baseline (0), stations (1), tunnel (2), and both packages (3).
+    """Assemble baseline (0), cycleway (1), underpasses (2), and both packages (3).
 
     Each package's physical effects are included once, with combined-only
     effects added to state 3. Appraisal settings stay outside the transport
@@ -582,13 +582,13 @@ def get_stages(params: dict | None = None, *, packages: dict | None = None,
 
 
 def stage_components(stage: int) -> tuple[bool, bool]:
-    """Return whether the station and tunnel packages are operating."""
+    """Return whether the cycleway and underpasses packages are operating."""
     return _STATE_COMPONENTS[int(stage)]
 
 
-def state_for_components(stations_active: bool, tunnel_active: bool) -> int:
+def state_for_components(cycleway_active: bool, underpasses_active: bool) -> int:
     """Select a transport state from two independently operating packages."""
-    components = (bool(stations_active), bool(tunnel_active))
+    components = (bool(cycleway_active), bool(underpasses_active))
     return next(state for state, active in _STATE_COMPONENTS.items() if active == components)
 
 
@@ -609,7 +609,7 @@ def _stage_minute_effect(stage: int, key: str) -> float:
     """Sum configured package minutes, adding the bonus only when both operate."""
     active_packages = stage_components(stage)
     packages = [PACKAGES[name]
-                for name, active in zip(("stations", "tunnel"), active_packages) if active]
+                for name, active in zip(("cycleway", "underpasses"), active_packages) if active]
     if all(active_packages):
         packages.append(COMBINED_EFFECTS)
     return sum(_package_railway_effect(package, key) for package in packages)
@@ -650,7 +650,7 @@ def _assemble_stages(packages: dict, params: dict, service_od_pairs: list[dict],
 
     def minute_effect(stage: int, key: str) -> float:
         active = stage_components(stage)
-        selected = [packages[name] for name, enabled in zip(("stations", "tunnel"), active) if enabled]
+        selected = [packages[name] for name, enabled in zip(("cycleway", "underpasses"), active) if enabled]
         if all(active):
             selected.append(combined_effects)
         return sum(_package_railway_effect(package, key) for package in selected)
@@ -672,7 +672,7 @@ def _assemble_stages(packages: dict, params: dict, service_od_pairs: list[dict],
         ), 0.0),
     }
     stages = {0: {"name": "Stage 0 – Baseline Network", "section_time_saving_min": 0.0, **technology}}
-    for stage, package in ((1, "stations"), (2, "tunnel")):
+    for stage, package in ((1, "cycleway"), (2, "underpasses")):
         inputs = deepcopy(packages[package])
         inputs.pop("appraisal", None)
         inputs.pop("section_time_saving_min", None)
@@ -690,7 +690,7 @@ def _assemble_stages(packages: dict, params: dict, service_od_pairs: list[dict],
         }
         stages[stage] = specification
     combined = deepcopy(stages[2])
-    combined["name"] = "Both stages - Tunnel and Hubs"
+    combined["name"] = "Both stages - Cycleway + Underpasses"
     combined["section_time_saving_min"] = minute_effect(3, "section_time_saving_min")
     for key in ("railway_expansions", "mobility_hubs", "bike_highways", "road_capacity"):
         if key in stages[1] or key in stages[2] or key in combined_effects:
@@ -723,10 +723,10 @@ def _assemble_stages(packages: dict, params: dict, service_od_pairs: list[dict],
 
 
 def construction_emissions_tonnes(package: int | str) -> float:
-    """Total construction tonnes CO2e for package 1/stations or 2/tunnel."""
-    package_names = {1: "stations", 2: "tunnel", "stations": "stations", "tunnel": "tunnel"}
+    """Total construction tonnes CO2e for package 1/cycleway or 2/underpasses."""
+    package_names = {1: "cycleway", 2: "underpasses", "cycleway": "cycleway", "underpasses": "underpasses"}
     if isinstance(package, bool) or package not in package_names:
-        raise ValueError("Construction emissions package must be 1/'stations' or 2/'tunnel'.")
+        raise ValueError("Construction emissions package must be 1/'cycleway' or 2/'underpasses'.")
     try:
         value = float(PACKAGES[package_names[package]]["appraisal"].get("construction_co2_tonnes", 0.0))
     except (TypeError, ValueError) as error:
@@ -739,14 +739,14 @@ def construction_emissions_tonnes(package: int | str) -> float:
 def asset_residual_value(package: int | str, investment_chf: float, operated_years: float) -> float:
     """Undiscounted CHF remaining at horizon end for one built package.
 
-    Package IDs 1 and 2 mean stations and tunnel, respectively. Transport state 3
+    Package IDs 1 and 2 mean cycleway and underpasses, respectively. Transport state 3
     combines both packages, so value each package separately. Named packages
-    "stations" and "tunnel" are accepted too. The caller supplies actual capital
+    "cycleway" and "underpasses" are accepted too. The caller supplies actual capital
     paid, omits unbuilt packages, and discounts the credit in the final year.
     """
-    package_names = {1: "stations", 2: "tunnel", "stations": "stations", "tunnel": "tunnel"}
+    package_names = {1: "cycleway", 2: "underpasses", "cycleway": "cycleway", "underpasses": "underpasses"}
     if isinstance(package, bool) or package not in package_names:
-        raise ValueError("Residual valuation package must be 1/'stations' or 2/'tunnel'.")
+        raise ValueError("Residual valuation package must be 1/'cycleway' or 2/'underpasses'.")
     settings = PACKAGES[package_names[package]]["appraisal"]
     try:
         investment = float(investment_chf)
