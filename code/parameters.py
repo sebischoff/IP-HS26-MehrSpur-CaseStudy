@@ -320,14 +320,14 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "maximum": 0.30,
     },
     # Uncomment together with BIKE_ASC_SHIFT_Y40 above to include cycling preferences.
-    # "BIKE_ASC_SHIFT": {
-    #     "category": "transport_modelling",
-    #     "use": "scenarios",
-    #     "transient": True,
-    #     "distribution": "triangular",
-    #     "minimum": -0.50,
-    #     "maximum": 1.00,
-    # },
+     "BIKE_ASC_SHIFT": {
+         "category": "transport_modelling",
+         "use": "scenarios",
+         "transient": True,
+         "distribution": "triangular",
+         "minimum": -0.50,
+         "maximum": 1.00,
+    },
     "EBIKE_SHARE": {  # Final e-bike fraction; starts from the known baseline share.
         "category": "transport_modelling",
         "use": "scenarios",
@@ -420,7 +420,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
     },
 }
 
-# Validate settings and prepare internal surrogate metadata.
+# Validate settsings and prepare internal surrogate metadata.
 uc.configure(
     registry=STRUCTURAL_UNCERTAINTIES, nominal=NOMINAL_PARAMS,
     n_years=N_YEARS, tail_probability=TRANSPORT_SURROGATE_TAIL_PROBABILITY,
