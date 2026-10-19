@@ -112,15 +112,15 @@ DEFAULT_TRIGGERS = {
 # Costs come from parameters.py; physical effects and asset lives from stages.py.
 # Names and descriptions are generated below so timing edits need only one change.
 PLAN_DEFINITIONS = {
-    "baseline": {
+    "baseline": { #keep stage 0, no intervention
         "name": "Baseline",
         "initial_packages": [], "cycleway": None, "underpasses": None,
     },
-    "static1": {
+    "static1": { #deploy cycleway in year 1, no underpasses
         "name": "Static 1",
         "initial_packages": ["cycleway"], "cycleway": None, "underpasses": None,
     },
-    "static2": {
+    "static2": { #deploy both stages in year 1
         "name": "Static 2",
         "initial_packages": ["cycleway", "underpasses"], "cycleway": None, "underpasses": None,
     },
