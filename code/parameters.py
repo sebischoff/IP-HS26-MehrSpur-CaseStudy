@@ -70,7 +70,7 @@ NOMINAL_PARAMS = {
     # Cycling/walking use the processor's teaching assumption; no off-peak solve is run.
     "PT_PEAK_SHARE": 0.0946,  # Representative peak-hour PT trips / weekday PT trips; NPVM conversion assumption.
     "CAR_PEAK_SHARE": 0.1049,  # Representative peak-hour car trips / weekday car trips; NPVM conversion assumption.
-    "BIKE_PEAK_SHARE": 0.15,  # Peak-hour share of daily cycling trips; editable teaching assumption.
+    "BIKE_PEAK_SHARE": 0.15,  # Peak-pt_share share of daily cycling trips; editable teaching assumption.
     "WALK_PEAK_SHARE": 0.15,  # Peak-hour share of daily walking trips; editable teaching assumption.
     "EQUIVALENT_DAYS_PER_YEAR": 300,  # Equivalent operating weekdays represented in one appraisal year.
     "NUMBER_OF_PEAK_HOURS": 4,  # Hours/day exposed to modeled congestion and crowding; integer sensitivity.
@@ -161,6 +161,9 @@ NOMINAL_PARAMS = {
     # -------------------------------------------------------------------------
     "MAX_AVG_TT": 15.0,  # Acceptability ceiling for peak car/PT in-vehicle time plus car delay (min/trip).
     "PT_SHARE_TARGET": 0.35,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 31.9%.
+    "BIKE_SHARE_TARGET": 0.08,  # Teaching minimum for cycling share of strategic passenger-km; baseline is about 6.5%.
+    #"CAR_SHARE_TARGET": 0.5,  # Teaching minimum for car share of strategic passenger-km; baseline is about 50%.
+    "CAR_SHARE_TARGET": 0.55,  # Teaching minimum for MIV share of strategic passenger-km; baseline is about 10%.
     "MIN_STRATEGIC_PKM_DISTANCE": 5.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
 
     # Internal shared keys for appraisal and uncertainties; edit values in stages.py.
