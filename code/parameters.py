@@ -160,7 +160,7 @@ NOMINAL_PARAMS = {
     # Performance requirements and strategic mode-share indicators
     # -------------------------------------------------------------------------
     "MAX_AVG_TT": 15.0,  # Acceptability ceiling for peak car/PT in-vehicle time plus car delay (min/trip).
-    "PT_SHARE_TARGET": 0.35,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 31.9%.
+   # "PT_SHARE_TARGET": 0.35,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 31.9%.
     "BIKE_SHARE_TARGET": 0.08,  # Teaching minimum for cycling share of strategic passenger-km; baseline is about 6.5%.
     #"CAR_SHARE_TARGET": 0.5,  # Teaching minimum for car share of strategic passenger-km; baseline is about 50%.
     "CAR_SHARE_TARGET": 0.55,  # Teaching minimum for MIV share of strategic passenger-km; baseline is about 10%.
