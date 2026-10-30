@@ -1,0 +1,5 @@
+﻿requirement,plan,box_source,density_in_plan,coverage_in_plan
+1: bike_share_trips > 0.075,baseline,none,,
+1: bike_share_trips > 0.075,adaptive,none,,
+2: section_load_ratio < 1.1,baseline,baseline,1.0,0.8843537414965986
+2: section_load_ratio < 1.1,adaptive,adaptive,1.0,0.8843537414965986

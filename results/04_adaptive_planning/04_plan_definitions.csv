@@ -1,0 +1,7 @@
+﻿plan,name,description,initial state,Station package,Tunnel package
+baseline,Baseline — Baseline throughout the 40-year horizon,Baseline throughout the 40-year horizon,Stage 0 – Baseline Network,no later addition,no later addition
+static1,Static 1 — Cycleway and underpasses from Year 1,Cycleway and underpasses from Year 1,STAGE 1 - Limmattal_bike_highway,no later addition,no later addition
+static2,Static 2 — Cycleway + underpasses from Year 1,Cycleway + underpasses from Year 1,Both stages - Cycleway + Underpasses,no later addition,no later addition
+staged1,"Staged 1 — Cycleway in Year 1, Underpasses in Year 10","Cycleway in Year 1, Underpasses in Year 10",Stage 0 – Baseline Network,fixed,fixed
+staged2,"Staged 2 — Cycleway in Year 1, Underpasses in Year 20","Cycleway in Year 1, Underpasses in Year 20",Stage 0 – Baseline Network,fixed,fixed
+adaptive,"Adaptive — Cycleway via Trigger 1, Underpasses via Trigger 2","Cycleway via Trigger 1, Underpasses via Trigger 2",Stage 0 – Baseline Network,"When Peak-hour bike demand exceeds 0.1 trips/peak hour for 1 consecutive years, decide to build; open after a 2-year lead time.","When Peak-hour bike demand exceeds 0.1 trips/peak hour for 1 consecutive years, decide to build; open after a 3-year lead time."

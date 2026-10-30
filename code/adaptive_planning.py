@@ -69,22 +69,24 @@ SIGNPOSTS = {
 }
 
 DEFAULT_TRIGGERS = {
+
+    #bike_share, bike_share_trips, car_share, congestion_delay_hours, total_peak_trips, total_demand, bike_trips
     # Trigger 1: Section demand -> package 1 (local stations and access)
     "trigger1": {
-        "signpost":        "section_combined_daily",
-        "threshold":       125_000,
+        "signpost":        "bike_trips",
+        "threshold":       0.3,
         "persistence":     2,       # Consecutive years above threshold
-        "lead_time":       6,       # Years of planning and station civil works
+        "lead_time":       3,       # Years of planning and station civil works
     },
     # Trigger 2: The same section count -> package 2 (Brüttenertunnel)
     # An absolute daily count keeps the signpost comparable when stations add
     # capacity. The action threshold is separate from comfort capacity.
     "trigger2": {
-        "signpost":        "section_combined_daily",
-        "threshold":       122_000,
-        "persistence":     2,
+        "signpost":        "bike_trips",
+        "threshold":       0.777,
+        "persistence":     1,
         # Years of tunnel planning and construction after the decision.
-        "lead_time":       10,
+        "lead_time":       3,
     }
 }
 
@@ -127,14 +129,14 @@ PLAN_DEFINITIONS = {
     "staged1": {
         "name": "Staged 1",
         "initial_packages": [],
-        "cycleway": {"type": "fixed", "opening_year": 8},
-        "underpasses": {"type": "fixed", "opening_year": 11},
+        "cycleway": {"type": "fixed", "opening_year": 1},
+        "underpasses": {"type": "fixed", "opening_year": 10},
     },
     "staged2": {
         "name": "Staged 2",
         "initial_packages": [],
-        "cycleway": {"type": "fixed", "opening_year": 6},
-        "underpasses": {"type": "fixed", "opening_year": 15},
+        "cycleway": {"type": "fixed", "opening_year": 1},
+        "underpasses": {"type": "fixed", "opening_year": 20},
     },
     "flexible": {
         "name": "Flexible",

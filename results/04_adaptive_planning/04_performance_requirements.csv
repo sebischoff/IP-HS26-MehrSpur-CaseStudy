@@ -1,0 +1,3 @@
+﻿indicator,operator,threshold,start_year
+bike_share_trips,>,0.075,10.0
+section_load_ratio,<,1.1,

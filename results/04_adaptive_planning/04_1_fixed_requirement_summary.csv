@@ -1,0 +1,9 @@
+﻿requirement,failure_percent,mean_failure_years,configuration
+Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,Stage 0 – Baseline Network
+Peak section load/capacity < 1.1 ratio (Years 1–40),73.5,18.3,Stage 0 – Baseline Network
+Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,STAGE 1 - Limmattal_bike_highway
+Peak section load/capacity < 1.1 ratio (Years 1–40),73.0,18.14,STAGE 1 - Limmattal_bike_highway
+Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,Stage 2 - Limmattal_bike_highway_underpasses
+Peak section load/capacity < 1.1 ratio (Years 1–40),73.0,18.16,Stage 2 - Limmattal_bike_highway_underpasses
+Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,Both stages - Cycleway + Underpasses
+Peak section load/capacity < 1.1 ratio (Years 1–40),73.5,18.34,Both stages - Cycleway + Underpasses

@@ -1,0 +1,7 @@
+﻿,minimum,maximum,favourable_direction,bottom_value,top_value
+pct_acceptable_years,17.5,100.0,higher,17.5,100.0
+delta_final_pt_share_pp,-0.41873776306060595,0.0,higher,-0.41873776306060595,0.0
+delta_final_pt_journey_time_min,-0.037135718674939255,0.005139794798189712,lower,0.005139794798189712,-0.037135718674939255
+delta_cumulative_road_delay_hours,-4053422.576418817,0.0,lower,0.0,-4053422.576418817
+delta_cumulative_operating_co2_tonnes,-62123.62718447298,0.0,lower,0.0,-62123.62718447298
+total_cost,0.0,173492563.36373657,lower,173492563.36373657,0.0

@@ -1,0 +1,7 @@
+﻿plan,pct_acceptable_years,delta_final_pt_share_pp,delta_final_pt_journey_time_min,delta_cumulative_road_delay_hours,delta_cumulative_operating_co2_tonnes,total_cost
+baseline,40.0,0.0,0.0,0.0,0.0,0.0
+static1,40.0,-0.092,-0.005,-1385362.513,-17154.146,43844119.751
+static2,40.0,-0.259,-0.017,-3270972.088,-50195.837,47951971.349
+staged1,40.0,-0.259,-0.017,-2890692.809,-39091.006,47091991.649
+staged2,40.0,-0.259,-0.017,-2427440.989,-29654.863,46283779.816
+adaptive,40.0,-0.259,-0.017,-2992678.515,-43386.252,142770279.5
