@@ -235,7 +235,7 @@ PACKAGES = {
         # "mobility_hubs": [],
          "bike_highways": [
             {
-                "name": "Dietikon-Schlieren TT reduction 23",
+                "name": "Dietikon-Schlieren",
                 "area_pairs": [
                     {"origin": {"municipality_name": "Dietikon"},
                      "destination": {"municipality_name": "Schlieren"}}
@@ -244,13 +244,22 @@ PACKAGES = {
                 "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
             },
             {
-                "name": "Schlieren-Zürich TT reduction 23",
+                "name": "Schlieren-Zürich",
                 "area_pairs": [
                     {"origin": {"municipality_name": "Schlieren"},
                      "destination": {"municipality_name": "Zürich"}}
                 ],
                 "both_directions": True,
                 "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
+            },
+            {
+                            "name": "Dietikon-Zürich",
+                            "area_pairs": [
+                                {"origin": {"municipality_name": "Dietikon"},
+                                 "destination": {"municipality_name": "Zürich"}}
+                            ],
+                            "both_directions": True,
+                            "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
             },
         ],
            # },
@@ -481,6 +490,7 @@ PACKAGES = {
 # Extra effects available only when BOTH packages are operating. These minutes
 # are added to the package values: 6 minutes of section saving and 5 minutes
 # of headway reduction in total (20-minute baseline -> 15-minute service).
+"""
 COMBINED_EFFECTS = {
      "bike_highways": [
         {
@@ -501,7 +511,18 @@ COMBINED_EFFECTS = {
             "both_directions": True,
             "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
         },
+        {
+            "name": "Dietikon-Zürich TT reduction ",
+            "area_pairs": [
+                {"origin": {"municipality_name": "Dietikon"},
+                    "destination": {"municipality_name": "Zürich"}}
+            ],
+            "both_directions": True,
+            "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
+        },
     ],
+    }
+    """
    # "railway_expansions": [
    #     {
    #         "section_time_saving_min": 1.0,
@@ -519,7 +540,7 @@ COMBINED_EFFECTS = {
     # Add OD-specific PT effects as further railway_expansions entries.
     # Other supported keys: bike_highways, road_capacity.
     # Specify frequency changes above, to apply their waiting benefit only once.
-}
+
 
 
 

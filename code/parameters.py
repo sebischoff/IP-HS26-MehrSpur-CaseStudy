@@ -164,7 +164,7 @@ NOMINAL_PARAMS = {
     "BIKE_SHARE_TARGET": 0.08,  # Teaching minimum for cycling share of strategic passenger-km; baseline is about 6.5%.
     #"CAR_SHARE_TARGET": 0.5,  # Teaching minimum for car share of strategic passenger-km; baseline is about 50%.
     "CAR_SHARE_TARGET": 0.55,  # Teaching minimum for MIV share of strategic passenger-km; baseline is about 10%.
-    "MIN_STRATEGIC_PKM_DISTANCE": 5.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
+    "MIN_STRATEGIC_PKM_DISTANCE": 1.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
 
     # Internal shared keys for appraisal and uncertainties; edit values in stages.py.
     **package_parameter_defaults(),
@@ -328,8 +328,8 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
          "use": "scenarios",
          "transient": True,
          "distribution": "triangular",
-         "minimum": -0.50,
-         "maximum": 1.00,
+         "minimum": -0.25, #adapted with the document "exploring the substitution potential from car trip towards bikes and e-bikes..."
+         "maximum": 0.80,
     },
     "EBIKE_SHARE": {  # Final e-bike fraction; starts from the known baseline share.
         "category": "transport_modelling",
