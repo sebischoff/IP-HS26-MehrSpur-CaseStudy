@@ -490,7 +490,7 @@ PACKAGES = {
 # Extra effects available only when BOTH packages are operating. These minutes
 # are added to the package values: 6 minutes of section saving and 5 minutes
 # of headway reduction in total (20-minute baseline -> 15-minute service).
-"""
+
 COMBINED_EFFECTS = {
      "bike_highways": [
         {
@@ -500,7 +500,7 @@ COMBINED_EFFECTS = {
                     "destination": {"municipality_name": "Schlieren"}}
             ],
             "both_directions": True,
-            "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
+            "effects": {"travel_time_reduction_pct": 0, "distance_reduction_pct": 0}, # 38.5, 5.0
         },
         {
             "name": "Schlieren-Zürich TT reduction ",
@@ -509,7 +509,7 @@ COMBINED_EFFECTS = {
                     "destination": {"municipality_name": "Zürich"}}
             ],
             "both_directions": True,
-            "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
+            "effects": {"travel_time_reduction_pct": 0, "distance_reduction_pct": 0},
         },
         {
             "name": "Dietikon-Zürich TT reduction ",
@@ -518,11 +518,11 @@ COMBINED_EFFECTS = {
                     "destination": {"municipality_name": "Zürich"}}
             ],
             "both_directions": True,
-            "effects": {"travel_time_reduction_pct": 38.5, "distance_reduction_pct": 5.0},
+            "effects": {"travel_time_reduction_pct": 0, "distance_reduction_pct": 0}, # 38.5, 5.0
         },
     ],
     }
-    """
+
    # "railway_expansions": [
    #     {
    #         "section_time_saving_min": 1.0,
