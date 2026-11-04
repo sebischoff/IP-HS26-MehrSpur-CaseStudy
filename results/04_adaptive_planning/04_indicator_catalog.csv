@@ -11,12 +11,12 @@ pt_journey_time_min,Average PT journey time,min/trip,,lower,In-vehicle + waiting
 congestion_delay_hours,Road delay,person-hours/year,,lower,"Modeled passenger-car delay, converted using the configured peak hours and equivalent days.",True,,,,True
 total_peak_trips,Total modeled peak demand,person-trips/peak hour,,context,All modes combined; infrastructure changes redistribute this OD demand across modes.,False,,,,True
 total_demand,Annual trip equivalents,person-trips/year,,context,"Sum of mode-specific annual trip equivalents. Changes can reflect modal conversion factors, not induced demand.",True,,,,True
-section_reference_minutes,Section reference journey,min,,lower,Fixed-reference journey time for the selected mode (PT in-vehicle time for this rail section); not a passenger-wide mean.,True,,,section,True
-section_modeled_daily,Modeled section flow,person-trips/day,,context,"Modeled journeys covered by the section recipe, using its mode's peak-to-daily conversion.",True,,,section,True
-section_external_daily,Supplementary section flow,person-trips/day,,context,Configured external cohort with its specified growth; zero when external flows are disabled.,True,,,section,True
-section_combined_daily,Combined section flow,person-trips/day,,context,Modeled plus supplementary journeys covered by the counting section.,True,,,section,True
-section_load_ratio,Peak section load/capacity,ratio,,lower,Combined peak passengers divided by the stage's comfort threshold; not measured seating capacity.,True,,,crowding,True
-section_crowding_penalty_min,Peak crowding penalty,equivalent min,,lower,"(Crowding multiplier - 1) times section reference minutes; discomfort, not extra physical journey time.",False,,,crowding,True
+section_reference_minutes,Section reference journey,min,,lower,Fixed-reference journey time for the selected mode (PT in-vehicle time for this rail section); not a passenger-wide mean.,True,,,section,False
+section_modeled_daily,Modeled section flow,person-trips/day,,context,"Modeled journeys covered by the section recipe, using its mode's peak-to-daily conversion.",True,,,section,False
+section_external_daily,Supplementary section flow,person-trips/day,,context,Configured external cohort with its specified growth; zero when external flows are disabled.,True,,,section,False
+section_combined_daily,Combined section flow,person-trips/day,,context,Modeled plus supplementary journeys covered by the counting section.,True,,,section,False
+section_load_ratio,Peak section load/capacity,ratio,,lower,Combined peak passengers divided by the stage's comfort threshold; not measured seating capacity.,True,,,crowding,False
+section_crowding_penalty_min,Peak crowding penalty,equivalent min,,lower,"(Crowding multiplier - 1) times section reference minutes; discomfort, not extra physical journey time.",False,,,crowding,False
 avg_tt_min,Average car/PT in-vehicle time + road delay,min/trip,,lower,"Combined car/PT peak average, excluding PT waiting/walking.",True,,,,True
 operating_co2_tonnes,Operating CO2 (car + rail),tonnes/year,,lower,Passenger-car and supplied rail-service operating emissions; excludes construction emissions.,False,,,,True
 co2_tonnes,Operating + construction CO2,tonnes/year,,lower,Operating emissions plus construction booked in the row; pre-horizon construction is booked in the first row.,True,,,,True
