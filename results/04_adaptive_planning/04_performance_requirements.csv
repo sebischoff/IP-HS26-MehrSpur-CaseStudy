@@ -1,2 +1,4 @@
 ﻿indicator,operator,threshold,start_year
-bike_share_trips,>,0.075,10
+bike_share_trips,>,0.16,10
+bike_share,>,0.1,10
+operating_co2_tonnes,<,260000.0,10

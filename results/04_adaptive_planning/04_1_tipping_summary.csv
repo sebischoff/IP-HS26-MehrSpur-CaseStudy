@@ -1,5 +1,5 @@
 ﻿configuration,initial_shortfall_percent,all_requirements_met_percent,mean_failure_years,median_first_failure_year_among_failures
-Stage 0 – Baseline Network,0.0,100.0,0.0,
-STAGE 1 - Limmattal_bike_highway,0.0,100.0,0.0,
-Stage 2 - Limmattal_bike_highway_underpasses,0.0,100.0,0.0,
-Both stages - Cycleway + Underpasses,0.0,100.0,0.0,
+Stage 0 – Baseline Network,0.0,10.0,3.63,10.0
+STAGE 1 - Limmattal_bike_highway,0.0,33.5,2.48,10.0
+Stage 2 - Limmattal_bike_highway_underpasses,0.0,21.0,3.04,10.0
+Both stages - Cycleway + Underpasses,0.0,34.0,2.37,10.0

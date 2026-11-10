@@ -1,6 +1,6 @@
-﻿scenario,failure_years,bike_share_trips_failure_years,bike_share_trips_first_failure_year,demand_growth_y40,bike_asc_shift_y40,package_1_decision_year,package_1_opening_year,package_2_decision_year,package_2_opening_year
-1. Low demand,0,0,,-0.08167840433800769,0.23875139198390877,2,4,2,5
-2. Rapid early growth,0,0,,0.295060984680808,0.23875139198390877,2,4,2,5
-3. Late acceleration,0,0,,0.1346640106136302,0.23875139198390877,2,4,2,5
-4. Temporary Year-15 shock,0,0,,-0.032667994693184904,0.23875139198390877,2,4,2,5
-5. Strong demand and preference,0,0,,0.4541742430504416,0.7206274606680623,2,4,2,5
+﻿scenario,failure_years,bike_share_trips_failure_years,bike_share_trips_first_failure_year,bike_share_failure_years,bike_share_first_failure_year,operating_co2_tonnes_failure_years,operating_co2_tonnes_first_failure_year,demand_growth_y40,bike_asc_shift_y40,package_1_decision_year,package_1_opening_year,package_2_decision_year,package_2_opening_year
+1. Low demand,0,0,,0,,0,,-0.08167840433800769,0.23875139198390877,,,,
+2. Rapid early growth,0,0,,0,,0,,0.295060984680808,0.23875139198390877,10.0,12.0,29.0,32.0
+3. Late acceleration,0,0,,0,,0,,0.1346640106136302,0.23875139198390877,27.0,29.0,,
+4. Temporary Year-15 shock,0,0,,0,,0,,-0.032667994693184904,0.23875139198390877,,,,
+5. Strong demand and preference,0,0,,0,,0,,0.4541742430504416,0.7206274606680623,4.0,6.0,7.0,10.0

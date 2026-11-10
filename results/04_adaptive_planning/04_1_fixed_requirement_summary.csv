@@ -1,5 +1,13 @@
 ﻿requirement,failure_percent,mean_failure_years,configuration
-Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,Stage 0 – Baseline Network
-Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,STAGE 1 - Limmattal_bike_highway
-Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,Stage 2 - Limmattal_bike_highway_underpasses
-Cycling trip share > 7.5 % (Years 10–40),0.0,0.0,Both stages - Cycleway + Underpasses
+Cycling trip share > 16 % (Years 10–40),11.0,1.26,Stage 0 – Baseline Network
+Cycling share (strategic PKM) > 10 % (Years 10–40),47.0,1.62,Stage 0 – Baseline Network
+Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),70.5,2.08,Stage 0 – Baseline Network
+Cycling trip share > 16 % (Years 10–40),2.5,0.65,STAGE 1 - Limmattal_bike_highway
+Cycling share (strategic PKM) > 10 % (Years 10–40),1.0,0.23,STAGE 1 - Limmattal_bike_highway
+Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),66.0,1.83,STAGE 1 - Limmattal_bike_highway
+Cycling trip share > 16 % (Years 10–40),5.0,0.88,Stage 2 - Limmattal_bike_highway_underpasses
+Cycling share (strategic PKM) > 10 % (Years 10–40),18.5,0.83,Stage 2 - Limmattal_bike_highway_underpasses
+Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),68.5,2.02,Stage 2 - Limmattal_bike_highway_underpasses
+Cycling trip share > 16 % (Years 10–40),2.5,0.56,Both stages - Cycleway + Underpasses
+Cycling share (strategic PKM) > 10 % (Years 10–40),0.5,0.1,Both stages - Cycleway + Underpasses
+Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),65.5,1.8,Both stages - Cycleway + Underpasses

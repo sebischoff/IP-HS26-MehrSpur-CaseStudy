@@ -1,5 +1,5 @@
 ﻿transition,scenarios_with_window,with_window_percent,reachable_window_percent,mean_restorable_years,median_last_restoration_decision
-Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,0.0,0.0,0.0,
-Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,0.0,0.0,0.0,
-STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,0,0.0,0.0,0.0,
-Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,0,0.0,0.0,0.0,
+Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,94,47.0,47.0,1.15,10.0
+Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,59,29.5,29.5,0.58,8.0
+STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,11,5.5,5.5,0.12,9.0
+Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,70,35.0,35.0,0.68,10.0

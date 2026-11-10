@@ -1,3 +1,3 @@
-﻿comparator,No saving; no more failure
-staged1,100.0
-staged2,100.0
+﻿comparator,No saving; more failure,No saving; no more failure
+staged1,51.0,49.0
+staged2,47.0,53.0
