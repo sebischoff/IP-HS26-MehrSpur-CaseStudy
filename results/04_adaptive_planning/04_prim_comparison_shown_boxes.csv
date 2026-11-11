@@ -1,7 +1,7 @@
 ﻿requirement,plan,box_source,density_in_plan,coverage_in_plan
 1: bike_share_trips > 0.16,baseline,baseline,1.0,0.7272727272727273
-1: bike_share_trips > 0.16,adaptive,adaptive,1.0,0.7272727272727273
+1: bike_share_trips > 0.16,adaptive,baseline,0.25,0.8
 2: bike_share > 0.1,baseline,baseline,1.0,0.40425531914893614
-2: bike_share > 0.1,adaptive,adaptive,1.0,0.40425531914893614
+2: bike_share > 0.1,adaptive,baseline,0.02631578947368421,0.5
 3: operating_co2_tonnes < 260000,baseline,baseline,1.0,0.8297872340425532
-3: operating_co2_tonnes < 260000,adaptive,adaptive,1.0,0.8297872340425532
+3: operating_co2_tonnes < 260000,adaptive,adaptive,1.0,0.7954545454545454
