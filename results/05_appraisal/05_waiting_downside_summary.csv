@@ -1,7 +1,0 @@
-﻿comparator,population,scenario_count,mean_comparator_NPV_MCHF,mean_focus_NPV_MCHF,mean_NPV_improvement_MCHF,mean_loss_reduction_MCHF,mean_expenditure_saving_MCHF,fraction_higher_NPV,no_package_committed_scenarios,pending_opening_scenarios,pending_package_openings
-staged1,All scenarios,200,574.4538246484045,350.9163266487891,-223.53749799961545,0.0,-94.3265002388999,0.0,0,4,4
-staged1,Comparator NPV < 0,0,,,,,,,0,0,0
-staged1,Comparator NPV < 0; no package committed,0,,,,,,,0,0,0
-static2,All scenarios,200,625.197836008458,350.9163266487891,-274.28150935966886,0.0,-93.45751082303217,0.0,0,4,4
-static2,Comparator NPV < 0,0,,,,,,,0,0,0
-static2,Comparator NPV < 0; no package committed,0,,,,,,,0,0,0
