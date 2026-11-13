@@ -2,6 +2,12 @@
 1: bike_share_trips > 0.16,baseline,200,22,11.0,Qualifying box,True,1.0,0.7272727272727273,0.75
 1: bike_share_trips > 0.16,adaptive,200,5,2.5,Too few cases: need 15 per class,False,,,0.75
 2: bike_share > 0.1,baseline,200,94,47.0,Qualifying box,True,1.0,0.40425531914893614,0.75
+<<<<<<< HEAD
 2: bike_share > 0.1,adaptive,200,1,0.5,Too few cases: need 15 per class,False,,,0.75
 3: operating_co2_tonnes < 260000,baseline,200,141,70.5,Qualifying box,True,1.0,0.8297872340425532,0.75
 3: operating_co2_tonnes < 260000,adaptive,200,131,65.5,Qualifying box,True,1.0,0.8015267175572519,0.75
+=======
+2: bike_share > 0.1,adaptive,200,2,1.0,Too few cases: need 15 per class,False,,,0.75
+3: operating_co2_tonnes < 260000,baseline,200,141,70.5,Qualifying box,True,1.0,0.8297872340425532,0.75
+3: operating_co2_tonnes < 260000,adaptive,200,132,66.0,Qualifying box,True,1.0,0.7954545454545454,0.75
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821

@@ -1,3 +1,10 @@
 ﻿scenario,package,package_label,decision_year,scheduled_opening_year,opening_year,status,route
+<<<<<<< HEAD
 0,1,Stage 1,3.0,5.0,5.0,Open within horizon,Baseline → Both (simultaneous)
 0,2,Stage 2,2.0,5.0,5.0,Open within horizon,Baseline → Both (simultaneous)
+=======
+32,1,Stage 1,3.0,5.0,5.0,Open within horizon,Baseline → Stage 1 → Both
+32,2,Stage 2,20.0,23.0,23.0,Open within horizon,Baseline → Stage 1 → Both
+9,1,Stage 1,3.0,5.0,5.0,Open within horizon,Baseline → Stage 1 only
+9,2,Stage 2,,,,No decision,Baseline → Stage 1 only
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821

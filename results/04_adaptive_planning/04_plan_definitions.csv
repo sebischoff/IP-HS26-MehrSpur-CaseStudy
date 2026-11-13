@@ -4,4 +4,8 @@ static1,Static 1 — Cycleway and underpasses from Year 1,Cycleway and underpass
 static2,Static 2 — Cycleway + underpasses from Year 1,Cycleway + underpasses from Year 1,Both stages - Cycleway + Underpasses,no later addition,no later addition
 staged1,"Staged 1 — Cycleway in Year 1, Underpasses in Year 10","Cycleway in Year 1, Underpasses in Year 10",Stage 0 – Baseline Network,fixed,fixed
 staged2,"Staged 2 — Cycleway in Year 1, Underpasses in Year 20","Cycleway in Year 1, Underpasses in Year 20",Stage 0 – Baseline Network,fixed,fixed
+<<<<<<< HEAD
 adaptive,"Adaptive — Cycleway via Trigger 1, Underpasses via Trigger 2","Cycleway via Trigger 1, Underpasses via Trigger 2",Stage 0 – Baseline Network,"When Peak-hour bike demand exceeds 50 trips/peak hour for 2 consecutive years, decide to build; open after a 2-year lead time.","When Peak-hour bike demand exceeds 70 trips/peak hour for 1 consecutive years, decide to build; open after a 3-year lead time."
+=======
+adaptive,"Adaptive — Cycleway via Trigger 1, Underpasses via Trigger 2","Cycleway via Trigger 1, Underpasses via Trigger 2",Stage 0 – Baseline Network,"When Peak-hour bike demand exceeds 50,000 trips/peak hour for 2 consecutive years, decide to build; open after a 2-year lead time.","When Peak-hour bike demand exceeds 60,000 trips/peak hour for 2 consecutive years, decide to build; open after a 3-year lead time."
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821

@@ -3185,7 +3185,11 @@
 61,adaptive,1: bike_share_trips > 0.16,False,0,
 61,adaptive,2: bike_share > 0.1,False,0,
 61,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
+<<<<<<< HEAD
 62,adaptive,1: bike_share_trips > 0.16,True,18,23.0
+=======
+62,adaptive,1: bike_share_trips > 0.16,True,24,17.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 62,adaptive,2: bike_share > 0.1,False,0,
 62,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
 63,adaptive,1: bike_share_trips > 0.16,False,0,
@@ -3229,7 +3233,11 @@
 75,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
 76,adaptive,1: bike_share_trips > 0.16,False,0,
 76,adaptive,2: bike_share > 0.1,False,0,
+<<<<<<< HEAD
 76,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
+=======
+76,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 77,adaptive,1: bike_share_trips > 0.16,False,0,
 77,adaptive,2: bike_share > 0.1,False,0,
 77,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
@@ -3247,7 +3255,11 @@
 81,adaptive,3: operating_co2_tonnes < 260000,False,0,
 82,adaptive,1: bike_share_trips > 0.16,False,0,
 82,adaptive,2: bike_share > 0.1,False,0,
+<<<<<<< HEAD
 82,adaptive,3: operating_co2_tonnes < 260000,False,0,
+=======
+82,adaptive,3: operating_co2_tonnes < 260000,True,1,10.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 83,adaptive,1: bike_share_trips > 0.16,False,0,
 83,adaptive,2: bike_share > 0.1,False,0,
 83,adaptive,3: operating_co2_tonnes < 260000,True,5,10.0
@@ -3367,7 +3379,11 @@
 121,adaptive,3: operating_co2_tonnes < 260000,True,4,10.0
 122,adaptive,1: bike_share_trips > 0.16,False,0,
 122,adaptive,2: bike_share > 0.1,False,0,
+<<<<<<< HEAD
 122,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
+=======
+122,adaptive,3: operating_co2_tonnes < 260000,True,4,10.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 123,adaptive,1: bike_share_trips > 0.16,False,0,
 123,adaptive,2: bike_share > 0.1,False,0,
 123,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
@@ -3415,7 +3431,11 @@
 137,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
 138,adaptive,1: bike_share_trips > 0.16,False,0,
 138,adaptive,2: bike_share > 0.1,False,0,
+<<<<<<< HEAD
 138,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
+=======
+138,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 139,adaptive,1: bike_share_trips > 0.16,False,0,
 139,adaptive,2: bike_share > 0.1,False,0,
 139,adaptive,3: operating_co2_tonnes < 260000,False,0,
@@ -3578,7 +3598,11 @@
 192,adaptive,1: bike_share_trips > 0.16,False,0,
 192,adaptive,2: bike_share > 0.1,False,0,
 192,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
+<<<<<<< HEAD
 193,adaptive,1: bike_share_trips > 0.16,True,27,14.0
+=======
+193,adaptive,1: bike_share_trips > 0.16,True,29,12.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 193,adaptive,2: bike_share > 0.1,False,0,
 193,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
 194,adaptive,1: bike_share_trips > 0.16,False,0,
@@ -3590,12 +3614,21 @@
 196,adaptive,1: bike_share_trips > 0.16,False,0,
 196,adaptive,2: bike_share > 0.1,False,0,
 196,adaptive,3: operating_co2_tonnes < 260000,True,4,10.0
+<<<<<<< HEAD
 197,adaptive,1: bike_share_trips > 0.16,True,14,27.0
+=======
+197,adaptive,1: bike_share_trips > 0.16,True,20,21.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 197,adaptive,2: bike_share > 0.1,False,0,
 197,adaptive,3: operating_co2_tonnes < 260000,True,2,10.0
 198,adaptive,1: bike_share_trips > 0.16,False,0,
 198,adaptive,2: bike_share > 0.1,False,0,
 198,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0
+<<<<<<< HEAD
 199,adaptive,1: bike_share_trips > 0.16,True,25,16.0
 199,adaptive,2: bike_share > 0.1,False,0,
+=======
+199,adaptive,1: bike_share_trips > 0.16,True,26,15.0
+199,adaptive,2: bike_share > 0.1,True,15,26.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 199,adaptive,3: operating_co2_tonnes < 260000,True,3,10.0

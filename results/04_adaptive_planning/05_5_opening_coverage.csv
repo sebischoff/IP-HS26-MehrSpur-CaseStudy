@@ -1,5 +1,10 @@
 ﻿,scenarios,share_percent
+<<<<<<< HEAD
 Both open,200,100.0
 Only Stage 1 open,0,0.0
+=======
+Both open,171,85.5
+Only Stage 1 open,29,14.5
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 Only Stage 2 open,0,0.0
 Neither open,0,0.0

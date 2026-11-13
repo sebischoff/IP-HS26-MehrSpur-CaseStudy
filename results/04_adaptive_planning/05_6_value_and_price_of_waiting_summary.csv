@@ -1,3 +1,8 @@
 ﻿comparator,mean_PV_saving_CHF,mean_additional_failure_years
+<<<<<<< HEAD
 staged1,-96136264.44366549,0.0
 staged2,-96936476.50224657,-0.07
+=======
+staged1,-94326500.2388999,0.115
+staged2,-95126712.29748099,0.045
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821

@@ -1,4 +1,9 @@
 ﻿shape1,linear,early,logistic
 linear,5.0,5.0,5.0
+<<<<<<< HEAD
 early,5.0,5.0,5.0
 logistic,5.0,5.0,5.0
+=======
+early,6.25,5.0,6.5
+logistic,5.0,5.333333333333333,5.0
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821

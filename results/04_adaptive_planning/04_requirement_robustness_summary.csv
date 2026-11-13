@@ -1,7 +1,13 @@
 ﻿plan,requirement,failure_percent,mean_failure_years
+<<<<<<< HEAD
 adaptive,1: bike_share_trips > 0.16,2.5,0.565
 adaptive,2: bike_share > 0.1,0.5,0.105
 adaptive,3: operating_co2_tonnes < 260000,65.5,1.8
+=======
+adaptive,1: bike_share_trips > 0.16,2.5,0.65
+adaptive,2: bike_share > 0.1,1.0,0.23
+adaptive,3: operating_co2_tonnes < 260000,66.0,1.83
+>>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 baseline,1: bike_share_trips > 0.16,11.0,1.265
 baseline,2: bike_share > 0.1,47.0,1.615
 baseline,3: operating_co2_tonnes < 260000,70.5,2.075
