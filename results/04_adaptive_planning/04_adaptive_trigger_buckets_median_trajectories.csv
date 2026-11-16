@@ -3,27 +3,6 @@ Stage 1,Early opening (≤ Y15),1,bike_trips,50473.803938727324
 Stage 1,Early opening (≤ Y15),2,bike_trips,50716.73236367733
 Stage 1,Early opening (≤ Y15),3,bike_trips,50967.7533206503
 Stage 1,Early opening (≤ Y15),4,bike_trips,51228.1001414715
-<<<<<<< HEAD
-Stage 1,Early opening (≤ Y15),5,bike_trips,52497.78364291767
-Stage 1,Early opening (≤ Y15),6,bike_trips,52801.80298465394
-Stage 1,Early opening (≤ Y15),7,bike_trips,53116.33485811959
-Stage 1,Early opening (≤ Y15),8,bike_trips,53424.02679548283
-Stage 1,Early opening (≤ Y15),9,bike_trips,53760.443454742555
-Stage 1,Early opening (≤ Y15),10,bike_trips,54201.22616948205
-Stage 1,Early opening (≤ Y15),11,bike_trips,54617.82276976906
-Stage 1,Early opening (≤ Y15),12,bike_trips,55146.884712210434
-Stage 1,Early opening (≤ Y15),13,bike_trips,55669.14580975451
-Stage 1,Early opening (≤ Y15),14,bike_trips,56412.512894441315
-Stage 1,Early opening (≤ Y15),15,bike_trips,57179.42995787416
-Stage 1,Early opening (≤ Y15),16,bike_trips,58110.39560430177
-Stage 1,Early opening (≤ Y15),17,bike_trips,59001.58943535114
-Stage 1,Early opening (≤ Y15),18,bike_trips,60109.023519909446
-Stage 1,Early opening (≤ Y15),19,bike_trips,61239.015157082504
-Stage 1,Early opening (≤ Y15),20,bike_trips,62501.264664096976
-Stage 1,Early opening (≤ Y15),21,bike_trips,63543.83374856172
-Stage 1,Early opening (≤ Y15),22,bike_trips,64755.803059926424
-Stage 1,Early opening (≤ Y15),23,bike_trips,65959.50641953043
-=======
 Stage 1,Early opening (≤ Y15),5,bike_trips,52235.65102410196
 Stage 1,Early opening (≤ Y15),6,bike_trips,52538.63911687439
 Stage 1,Early opening (≤ Y15),7,bike_trips,52851.51563781401
@@ -43,7 +22,6 @@ Stage 1,Early opening (≤ Y15),20,bike_trips,62211.87294943363
 Stage 1,Early opening (≤ Y15),21,bike_trips,63269.2959335654
 Stage 1,Early opening (≤ Y15),22,bike_trips,64476.54288898655
 Stage 1,Early opening (≤ Y15),23,bike_trips,65824.3080705684
->>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 Stage 1,Early opening (≤ Y15),24,bike_trips,67226.20931932908
 Stage 1,Early opening (≤ Y15),25,bike_trips,68444.1072745485
 Stage 1,Early opening (≤ Y15),26,bike_trips,69529.8915071646
@@ -65,27 +43,6 @@ Stage 1,Early opening (≤ Y15),1,bike_trips,50473.803938727324
 Stage 1,Early opening (≤ Y15),2,bike_trips,50716.73236367733
 Stage 1,Early opening (≤ Y15),3,bike_trips,50967.7533206503
 Stage 1,Early opening (≤ Y15),4,bike_trips,51228.1001414715
-<<<<<<< HEAD
-Stage 1,Early opening (≤ Y15),5,bike_trips,52497.78364291767
-Stage 1,Early opening (≤ Y15),6,bike_trips,52801.80298465394
-Stage 1,Early opening (≤ Y15),7,bike_trips,53116.33485811959
-Stage 1,Early opening (≤ Y15),8,bike_trips,53424.02679548283
-Stage 1,Early opening (≤ Y15),9,bike_trips,53760.443454742555
-Stage 1,Early opening (≤ Y15),10,bike_trips,54201.22616948205
-Stage 1,Early opening (≤ Y15),11,bike_trips,54617.82276976906
-Stage 1,Early opening (≤ Y15),12,bike_trips,55146.884712210434
-Stage 1,Early opening (≤ Y15),13,bike_trips,55669.14580975451
-Stage 1,Early opening (≤ Y15),14,bike_trips,56412.512894441315
-Stage 1,Early opening (≤ Y15),15,bike_trips,57179.42995787416
-Stage 1,Early opening (≤ Y15),16,bike_trips,58110.39560430177
-Stage 1,Early opening (≤ Y15),17,bike_trips,59001.58943535114
-Stage 1,Early opening (≤ Y15),18,bike_trips,60109.023519909446
-Stage 1,Early opening (≤ Y15),19,bike_trips,61239.015157082504
-Stage 1,Early opening (≤ Y15),20,bike_trips,62501.264664096976
-Stage 1,Early opening (≤ Y15),21,bike_trips,63543.83374856172
-Stage 1,Early opening (≤ Y15),22,bike_trips,64755.803059926424
-Stage 1,Early opening (≤ Y15),23,bike_trips,65959.50641953043
-=======
 Stage 1,Early opening (≤ Y15),5,bike_trips,52235.65102410196
 Stage 1,Early opening (≤ Y15),6,bike_trips,52538.63911687439
 Stage 1,Early opening (≤ Y15),7,bike_trips,52851.51563781401
@@ -105,7 +62,6 @@ Stage 1,Early opening (≤ Y15),20,bike_trips,62211.87294943363
 Stage 1,Early opening (≤ Y15),21,bike_trips,63269.2959335654
 Stage 1,Early opening (≤ Y15),22,bike_trips,64476.54288898655
 Stage 1,Early opening (≤ Y15),23,bike_trips,65824.3080705684
->>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
 Stage 1,Early opening (≤ Y15),24,bike_trips,67226.20931932908
 Stage 1,Early opening (≤ Y15),25,bike_trips,68444.1072745485
 Stage 1,Early opening (≤ Y15),26,bike_trips,69529.8915071646
@@ -123,88 +79,6 @@ Stage 1,Early opening (≤ Y15),37,bike_trips,75139.17241895854
 Stage 1,Early opening (≤ Y15),38,bike_trips,75452.23843138412
 Stage 1,Early opening (≤ Y15),39,bike_trips,75752.51919677452
 Stage 1,Early opening (≤ Y15),40,bike_trips,75923.34786072976
-<<<<<<< HEAD
-Stage 2,Early opening (≤ Y15),1,bike_trips,50473.803938727324
-Stage 2,Early opening (≤ Y15),2,bike_trips,50716.73236367733
-Stage 2,Early opening (≤ Y15),3,bike_trips,50967.7533206503
-Stage 2,Early opening (≤ Y15),4,bike_trips,51228.1001414715
-Stage 2,Early opening (≤ Y15),5,bike_trips,52497.78364291767
-Stage 2,Early opening (≤ Y15),6,bike_trips,52801.80298465394
-Stage 2,Early opening (≤ Y15),7,bike_trips,53116.33485811959
-Stage 2,Early opening (≤ Y15),8,bike_trips,53424.02679548283
-Stage 2,Early opening (≤ Y15),9,bike_trips,53760.443454742555
-Stage 2,Early opening (≤ Y15),10,bike_trips,54201.22616948205
-Stage 2,Early opening (≤ Y15),11,bike_trips,54617.82276976906
-Stage 2,Early opening (≤ Y15),12,bike_trips,55146.884712210434
-Stage 2,Early opening (≤ Y15),13,bike_trips,55669.14580975451
-Stage 2,Early opening (≤ Y15),14,bike_trips,56412.512894441315
-Stage 2,Early opening (≤ Y15),15,bike_trips,57179.42995787416
-Stage 2,Early opening (≤ Y15),16,bike_trips,58110.39560430177
-Stage 2,Early opening (≤ Y15),17,bike_trips,59001.58943535114
-Stage 2,Early opening (≤ Y15),18,bike_trips,60109.023519909446
-Stage 2,Early opening (≤ Y15),19,bike_trips,61239.015157082504
-Stage 2,Early opening (≤ Y15),20,bike_trips,62501.264664096976
-Stage 2,Early opening (≤ Y15),21,bike_trips,63543.83374856172
-Stage 2,Early opening (≤ Y15),22,bike_trips,64755.803059926424
-Stage 2,Early opening (≤ Y15),23,bike_trips,65959.50641953043
-Stage 2,Early opening (≤ Y15),24,bike_trips,67226.20931932908
-Stage 2,Early opening (≤ Y15),25,bike_trips,68444.1072745485
-Stage 2,Early opening (≤ Y15),26,bike_trips,69529.8915071646
-Stage 2,Early opening (≤ Y15),27,bike_trips,70480.29069538791
-Stage 2,Early opening (≤ Y15),28,bike_trips,71300.40578290116
-Stage 2,Early opening (≤ Y15),29,bike_trips,72000.9713686148
-Stage 2,Early opening (≤ Y15),30,bike_trips,72595.79786159188
-Stage 2,Early opening (≤ Y15),31,bike_trips,73099.74255329004
-Stage 2,Early opening (≤ Y15),32,bike_trips,73527.30456414958
-Stage 2,Early opening (≤ Y15),33,bike_trips,73891.78155517502
-Stage 2,Early opening (≤ Y15),34,bike_trips,74204.85897923377
-Stage 2,Early opening (≤ Y15),35,bike_trips,74476.49503319853
-Stage 2,Early opening (≤ Y15),36,bike_trips,74809.93393951863
-Stage 2,Early opening (≤ Y15),37,bike_trips,75139.17241895854
-Stage 2,Early opening (≤ Y15),38,bike_trips,75452.23843138412
-Stage 2,Early opening (≤ Y15),39,bike_trips,75752.51919677452
-Stage 2,Early opening (≤ Y15),40,bike_trips,75923.34786072976
-Stage 2,Early opening (≤ Y15),1,bike_trips,50473.803938727324
-Stage 2,Early opening (≤ Y15),2,bike_trips,50716.73236367733
-Stage 2,Early opening (≤ Y15),3,bike_trips,50967.7533206503
-Stage 2,Early opening (≤ Y15),4,bike_trips,51228.1001414715
-Stage 2,Early opening (≤ Y15),5,bike_trips,52497.78364291767
-Stage 2,Early opening (≤ Y15),6,bike_trips,52801.80298465394
-Stage 2,Early opening (≤ Y15),7,bike_trips,53116.33485811959
-Stage 2,Early opening (≤ Y15),8,bike_trips,53424.02679548283
-Stage 2,Early opening (≤ Y15),9,bike_trips,53760.443454742555
-Stage 2,Early opening (≤ Y15),10,bike_trips,54201.22616948205
-Stage 2,Early opening (≤ Y15),11,bike_trips,54617.82276976906
-Stage 2,Early opening (≤ Y15),12,bike_trips,55146.884712210434
-Stage 2,Early opening (≤ Y15),13,bike_trips,55669.14580975451
-Stage 2,Early opening (≤ Y15),14,bike_trips,56412.512894441315
-Stage 2,Early opening (≤ Y15),15,bike_trips,57179.42995787416
-Stage 2,Early opening (≤ Y15),16,bike_trips,58110.39560430177
-Stage 2,Early opening (≤ Y15),17,bike_trips,59001.58943535114
-Stage 2,Early opening (≤ Y15),18,bike_trips,60109.023519909446
-Stage 2,Early opening (≤ Y15),19,bike_trips,61239.015157082504
-Stage 2,Early opening (≤ Y15),20,bike_trips,62501.264664096976
-Stage 2,Early opening (≤ Y15),21,bike_trips,63543.83374856172
-Stage 2,Early opening (≤ Y15),22,bike_trips,64755.803059926424
-Stage 2,Early opening (≤ Y15),23,bike_trips,65959.50641953043
-Stage 2,Early opening (≤ Y15),24,bike_trips,67226.20931932908
-Stage 2,Early opening (≤ Y15),25,bike_trips,68444.1072745485
-Stage 2,Early opening (≤ Y15),26,bike_trips,69529.8915071646
-Stage 2,Early opening (≤ Y15),27,bike_trips,70480.29069538791
-Stage 2,Early opening (≤ Y15),28,bike_trips,71300.40578290116
-Stage 2,Early opening (≤ Y15),29,bike_trips,72000.9713686148
-Stage 2,Early opening (≤ Y15),30,bike_trips,72595.79786159188
-Stage 2,Early opening (≤ Y15),31,bike_trips,73099.74255329004
-Stage 2,Early opening (≤ Y15),32,bike_trips,73527.30456414958
-Stage 2,Early opening (≤ Y15),33,bike_trips,73891.78155517502
-Stage 2,Early opening (≤ Y15),34,bike_trips,74204.85897923377
-Stage 2,Early opening (≤ Y15),35,bike_trips,74476.49503319853
-Stage 2,Early opening (≤ Y15),36,bike_trips,74809.93393951863
-Stage 2,Early opening (≤ Y15),37,bike_trips,75139.17241895854
-Stage 2,Early opening (≤ Y15),38,bike_trips,75452.23843138412
-Stage 2,Early opening (≤ Y15),39,bike_trips,75752.51919677452
-Stage 2,Early opening (≤ Y15),40,bike_trips,75923.34786072976
-=======
 Stage 2,No opening,1,bike_trips,50473.803938727324
 Stage 2,No opening,2,bike_trips,50449.46309374891
 Stage 2,No opening,3,bike_trips,50426.3467991886
@@ -445,4 +319,3 @@ Stage 2,Late opening (> Y25),37,bike_trips,65822.38970335401
 Stage 2,Late opening (> Y25),38,bike_trips,65811.0364046488
 Stage 2,Late opening (> Y25),39,bike_trips,65771.75477779802
 Stage 2,Late opening (> Y25),40,bike_trips,65948.36673894174
->>>>>>> e48b6bc06cc45bb916073d147c2bb0bd40845821
