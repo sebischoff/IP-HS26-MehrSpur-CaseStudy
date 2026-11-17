@@ -2718,8 +2718,8 @@
     "file": "response_table.npz",
     "schema": "transport_response_v1",
     "fingerprint": "1f46576a7702c843f16d",
-    "sha256": "dbf0677c1254c24a7e9b579b84adbf7f2677e61fb96edc3556889a15ece6ec3f",
+    "sha256": "2396fb3e16ff635ab6ccf3ee5cd9a35cdd73546e69911aae2e5abc8e6f043e12",
     "n_conditions": 768,
-    "preparation_seconds": 652.4081459589943
+    "preparation_seconds": 336.8494272079988
   }
 }

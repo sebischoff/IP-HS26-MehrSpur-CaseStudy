@@ -1,14 +1,17 @@
 ﻿Stage,Type,Intervention,Spatial scope,Effects
 1,railway_expansions,Corridor service frequency,15 area pairs | both directions,No numerical effects
-1,bike_highways,Dietikon-Schlieren TT reduction 23,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
-1,bike_highways,Schlieren-Zürich TT reduction 23,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
+1,bike_highways,Dietikon-Schlieren,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
+1,bike_highways,Schlieren-Zürich,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
+1,bike_highways,Dietikon-Zürich,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
 2,railway_expansions,Corridor service frequency,15 area pairs | both directions,No numerical effects
 2,bike_highways,Dietikon-Schlieren TT reduction 23,1 area pairs | both directions,travel_time_reduction_pct=15.4
 2,bike_highways,Schlieren-Zürich TT reduction 23,1 area pairs | both directions,travel_time_reduction_pct=15.4
 3,railway_expansions,Corridor service frequency,15 area pairs | both directions,No numerical effects
-3,bike_highways,Dietikon-Schlieren TT reduction 23,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
-3,bike_highways,Schlieren-Zürich TT reduction 23,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
+3,bike_highways,Dietikon-Schlieren,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
+3,bike_highways,Schlieren-Zürich,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
+3,bike_highways,Dietikon-Zürich,1 area pairs | both directions,"travel_time_reduction_pct=23.0, distance_reduction_pct=5.0"
 3,bike_highways,Dietikon-Schlieren TT reduction 23,1 area pairs | both directions,travel_time_reduction_pct=15.4
 3,bike_highways,Schlieren-Zürich TT reduction 23,1 area pairs | both directions,travel_time_reduction_pct=15.4
-3,bike_highways,Dietikon-Schlieren TT reduction ,1 area pairs | both directions,"travel_time_reduction_pct=38.5, distance_reduction_pct=5.0"
-3,bike_highways,Schlieren-Zürich TT reduction ,1 area pairs | both directions,"travel_time_reduction_pct=38.5, distance_reduction_pct=5.0"
+3,bike_highways,Dietikon-Schlieren TT reduction ,1 area pairs | both directions,No numerical effects
+3,bike_highways,Schlieren-Zürich TT reduction ,1 area pairs | both directions,No numerical effects
+3,bike_highways,Dietikon-Zürich TT reduction ,1 area pairs | both directions,No numerical effects
