@@ -1,0 +1,55 @@
+﻿gate_id,node_id,direction,highway,capacity_vph
+G01,1670,entry + exit,primary,1200.0
+G02,2096,entry + exit,primary,1200.0
+G03,5939,entry + exit,secondary,1600.0
+G04,4841,entry + exit,primary,2100.0
+G05,4099,entry,motorway,4000.0
+G06,7072,entry,motorway,4000.0
+G07,5699,exit,motorway,4000.0
+G08,4948,entry + exit,secondary,2600.0
+G09,5046,entry + exit,secondary,1000.0
+G10,675,entry + exit,primary,1200.0
+G11,6099,entry + exit,primary,3200.0
+G12,14,exit,motorway,4000.0
+G13,6151,entry + exit,secondary,1600.0
+G14,5267,entry + exit,secondary,2600.0
+G15,5293,entry,motorway,4000.0
+G16,5294,exit,motorway,4000.0
+G17,5306,exit,secondary,1600.0
+G18,10104,entry + exit,secondary,1000.0
+G19,8352,entry + exit,secondary,1000.0
+G20,10226,entry + exit,secondary,2600.0
+G21,8406,entry + exit,secondary,2600.0
+G22,8412,entry + exit,secondary,1600.0
+G23,9733,entry + exit,residential,1500.0
+G24,8449,exit,motorway,1700.0
+G25,1242,entry + exit,residential,700.0
+G26,8456,entry + exit,residential,700.0
+G27,8504,entry + exit,tertiary,1500.0
+G28,8708,entry + exit,residential,700.0
+G29,8515,entry + exit,tertiary,900.0
+G30,8530,entry + exit,unclassified,700.0
+G31,5458,entry + exit,secondary,1600.0
+G32,8578,entry + exit,tertiary,1500.0
+G33,8644,entry + exit,residential,1600.0
+G34,8721,entry + exit,residential,700.0
+G35,5884,entry + exit,secondary,1600.0
+G36,2860,exit,motorway,5800.0
+G37,10424,entry + exit,primary,1200.0
+G38,1126,entry + exit,tertiary,900.0
+G39,8858,entry + exit,residential,900.0
+G40,8886,entry + exit,residential,700.0
+G41,6938,entry,secondary,1000.0
+G42,8960,entry + exit,secondary,1600.0
+G43,8962,entry + exit,unclassified,700.0
+G44,9173,entry + exit,tertiary,900.0
+G45,9799,entry + exit,primary,2100.0
+G46,9264,entry + exit,secondary,1600.0
+G47,9864,entry + exit,primary,2100.0
+G48,9606,entry + exit,tertiary,900.0
+G49,9863,entry + exit,residential,700.0
+G50,10499,entry + exit,unclassified,700.0
+G51,10703,entry + exit,secondary,1600.0
+G52,4082,entry + exit,tertiary,900.0
+G53,10392,entry + exit,primary,1200.0
+G54,7070,entry,motorway,5800.0

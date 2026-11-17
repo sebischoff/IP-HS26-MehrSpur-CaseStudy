@@ -1,0 +1,17 @@
+﻿,value
+modal_feedback,False
+road_gap_threshold,0.02
+max_iterations,64
+od_threshold,0.0
+passthrough_fraction,0.05
+name,stage_0
+stage,0
+section_time_saving_min,0.0
+ebike_share,0.25
+EBIKE_SPEED_MULTIPLIER,1.5
+demand_multiplier,1.0
+section_config,"{'active': True, 'mode': 'PT', 'origin': {'municipality_name': ['Zürich']}, 'destination': {'municipality_name': ['Winterthur']}, 'both_directions': True, 'crowding_enabled': True, 'coverage_file': 'data/processed/section_coverage.npz', 'section_override': None, 'kind': 'pt_approach', 'station': 'Winterthur', 'towards': 'Effretikon'}"
+section_signature,abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1
+ASC_PT_WALK,0.0
+ASC_PT_BIKE,-1.5
+ASC_BIKE,-0.1

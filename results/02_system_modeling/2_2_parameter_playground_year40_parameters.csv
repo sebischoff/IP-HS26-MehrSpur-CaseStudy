@@ -1,0 +1,11 @@
+﻿,Nominal,Selected
+PASSENGER_DEMAND_GROWTH_Y40,0.2,0.8
+PT_ASC_SHIFT_Y40,0.1,0.1
+EBIKE_SHARE,0.5,0.5
+EBIKE_SPEED_MULTIPLIER,1.5,1.5
+travel_time_reduction_pct,0.0,0.0
+initial_wait_reduction_pct,0.0,0.0
+transfer_wait_reduction_pct,0.0,0.0
+transfer_time_reduction_pct,0.0,0.0
+access_time_reduction_pct,0.0,0.0
+egress_time_reduction_pct,0.0,0.0

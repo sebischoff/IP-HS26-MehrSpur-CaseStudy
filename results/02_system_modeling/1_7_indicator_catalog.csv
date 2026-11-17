@@ -1,0 +1,14 @@
+﻿,Definition / availability
+trips,Peak person-trips and mode-specific annual trip equivalents
+trip_share,Shares of person-trips (Sections 1.7 and 3.3)
+distance_share,"Strategic modal shares, weighted by common OD distance for trips ≥5 km"
+travel_time,Journey time in 1.7; car/PT in-vehicle time in 3.3 and 4.3
+road_delay,Vehicle-hours including background in 1.7; passenger-hours in 3.3 and 4.3
+operating_co2,Passenger-car CO2 in 1.7 and 3.3; car and rail CO2 in 4.3
+construction_co2,Total package construction emissions (Section 4.3)
+infrastructure_cost,Undiscounted investment plus operating cost (Section 4.3)
+stage,Transport configuration in Year 40 (Section 4.3)
+section_travel_time,"Section reference-pair in-vehicle minutes, fixed OD/submode weights"
+section_loading,"Modeled and supplementary section passengers, comfort capacity and load/capacity"
+section_crowding,Peak crowding multiplier and discomfort-equivalent minutes for the section reference journey
+pt_components,"Waiting, access, egress and transfer walking for the same-year baseline PT passengers"

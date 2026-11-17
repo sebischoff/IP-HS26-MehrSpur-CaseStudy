@@ -1,0 +1,44 @@
+﻿diagnostic,value
+algorithm,method of successive averages (MSA) with BPR link times
+runtime_s,9.03974449999805
+iterations,16
+max_iterations,64
+min_iterations,8
+total_delay_hours,262135.76319738722
+total_vkt,1041731.1640935511
+total_vht,282429.8069173077
+avg_speed_kph,3.6884604194717956
+relative_l1_threshold,0.1
+final_relative_l1_change,0.024641846612718465
+stopping_rule_met,True
+od_threshold_veh_h,0.0
+requested_total_vehicles,133785.3601039011
+intrazonal_not_assigned_vehicles,1359.8876766245432
+requested_interzonal_vehicles,132425.47242727652
+retained_above_cutoff_vehicles,132425.47242727655
+retained_od_pairs,198327
+omitted_below_cutoff_vehicles,0.0
+served_vehicles,132425.47242727652
+unserved_vehicles,0.0
+unserved_od_pairs,0
+served_share_of_retained,0.9999999999999998
+retained_trips,132425.47242727655
+max_vc,9.052977357964224
+mean_vc,0.3692916946946662
+stopping_rule,road_relative_gap
+road_gap_threshold,0.02
+check_every,4
+final_road_relative_gap_feasible_averaged_od,0.018996615300875184
+convergence_check_history,"[{'iteration': 8, 'road_relative_gap_feasible_averaged_od': 0.02654978036553411, 'averaged_assigned_feasible_vehicles': 132425.47242727655}, {'iteration': 12, 'road_relative_gap_feasible_averaged_od': 0.02267276929242495, 'averaged_assigned_feasible_vehicles': 132425.47242727655}, {'iteration': 16, 'road_relative_gap_feasible_averaged_od': 0.018996615300875184, 'averaged_assigned_feasible_vehicles': 132425.47242727655}]"
+termination_reason,converged
+unserved_share_of_routing_demand,0.0
+stage,0
+modal_feedback,False
+drive_occupancy,1.14
+passthrough_fraction,0.05
+drive_vehicle_trips,86025.3387175497
+npvm_background_trips,17159.957721299998
+external_endpoint_background_trips,30600.063665051406
+assignment_vehicle_trips,133785.3601039011
+demand_component_scope,retained corridor OD before assignment cutoff
+mode_choice_cache_key,"[0, 1.0, 0.0, 0.0, 0.25, 'abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1']"

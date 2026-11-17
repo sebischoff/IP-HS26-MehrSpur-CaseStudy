@@ -1,0 +1,5 @@
+﻿Indicator,Nominal,Selected,Absolute change,Relative change (%),Unit
+Average travel time,13.683196804647668,13.683196804647668,0.0,0.0,min/trip
+Passenger road delay,5788.738854431774,5788.738854431774,0.0,0.0,person-hours/peak hour
+Tailpipe CO2,92.86083560536926,92.86083560536926,0.0,0.0,tonnes/peak hour
+Passenger demand,315746.07505460974,315746.07505460974,0.0,0.0,trips/peak hour

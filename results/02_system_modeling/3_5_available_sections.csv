@@ -1,0 +1,2 @@
+﻿kind,mode,stations,both_directions,description
+pt_approach,PT,"['Winterthur', 'Effretikon']",True,Fixed PT paths approaching the station from the selected side.

@@ -28,12 +28,12 @@ verifications/
 validation/
 
 # Generated Notebook 02 exports
-/figures/02_system_modeling/
-/results/02_system_modeling/
+#/figures/02_system_modeling/
+#/results/02_system_modeling/
 
 # Cached surrogate training runs
 /data/processed/transport_surrogate/msa_cache/
 
 # Generated Notebook 03 exports
-/figures/03_uncertainty_modeling/
-/results/03_uncertainty_modeling/
+#/figures/03_uncertainty_modeling/
+#/results/03_uncertainty_modeling/

@@ -1,0 +1,2 @@
+﻿Enabled,Intervention,Scope,access_time_reduction_pct,transfer_time_reduction_pct,egress_time_reduction_pct
+True,"Station Upgrades (Dietlikon, Bassersdorf, Wallisellen)",municipality_name: Dietlikon; municipality_name: Bassersdorf; municipality_name: Wallisellen,25.0,15.0,20.0

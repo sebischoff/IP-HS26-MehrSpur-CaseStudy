@@ -1,0 +1,22 @@
+﻿,value
+name,MehrSpur
+buffer_m,500.0
+max_gates,100
+gate_separation_m,500.0
+internal_zones,413
+local_links,15050
+local_nodes,6716
+candidate_boundary_nodes,192
+excluded_zone_access_frontier_links,48
+routing_extension_links,94
+routing_extension_nodes,63
+routing_extension_zone_ids,"['16101007', '19101005', '19501001', '24501001', '24501002', '24801003', '25001001', '25001003', '25001009', '6601001', '6601003', '6601009', '6901001', '6901002', '6901007', '6901008', '6901015', '9601012', '9601014']"
+routing_nodes_outside_polygon,51
+eligible_boundary_nodes,171
+excluded_unreachable_boundary_nodes,"[8345, 10041, 10745, 8355, 8364, 8368, 9943, 8558, 10176, 8557, 8791, 9179, 9333, 9327, 9958, 9775, 9776, 9773, 9811, 9812, 9211]"
+excluded_unreachable_gate_directions,42
+internal_zone_reachability,mutually reachable
+selected_gates,54
+entry_gates,48
+exit_gates,49
+gate_definition,retained endpoint of a directed routing-frontier link

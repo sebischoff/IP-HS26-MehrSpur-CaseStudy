@@ -1,0 +1,39 @@
+﻿diagnostic,value
+algorithm,coupled MSA/BPR assignment and five-mode logit
+modal_feedback,True
+runtime_s,32.52567995799836
+iterations,20
+max_iterations,64
+min_iterations,8
+relative_l1_threshold,0.1
+flow_gap_threshold,0.1
+demand_gap_threshold,0.1
+final_relative_l1_flow_change,0.009376186683668316
+final_relative_l1_demand_change,0.0031955596857633634
+stopping_rule_met,True
+od_threshold_veh_h,0.0
+passthrough_fraction,0.05
+drive_occupancy,1.14
+passenger_demand_multiplier,1.0
+road_freight_multiplier,1.0
+requested_total_vehicles,112314.26937965548
+drive_vehicle_trips,69789.35169351875
+npvm_background_trips,17159.957721299998
+external_endpoint_background_trips,25364.95996483673
+assignment_vehicle_trips,112314.26937965548
+demand_component_scope,retained corridor OD before assignment cutoff
+served_vehicles,110601.08745232214
+unserved_vehicles,0.0
+unserved_od_pairs,0
+total_delay_hours,6711.456156772032
+total_vkt,779451.4066802247
+total_vht,21628.02596532261
+avg_speed_kph,36.03895278884728
+corridor_delay_feedback,OD-specific local-network delay added to the fixed whole-trip drive skim
+stopping_rule,road_relative_gap
+road_gap_threshold,0.02
+check_every,4
+final_road_relative_gap_feasible_averaged_od,0.017217255787462638
+convergence_check_history,"[{'iteration': 8, 'road_relative_gap_feasible_averaged_od': 0.036717508216601226, 'averaged_assigned_feasible_vehicles': 113748.90736501594}, {'iteration': 12, 'road_relative_gap_feasible_averaged_od': 0.028161504116102447, 'averaged_assigned_feasible_vehicles': 110951.95080664512}, {'iteration': 16, 'road_relative_gap_feasible_averaged_od': 0.021554641835113377, 'averaged_assigned_feasible_vehicles': 110174.24573802194}, {'iteration': 20, 'road_relative_gap_feasible_averaged_od': 0.017217255787462638, 'averaged_assigned_feasible_vehicles': 110132.45466826303}]"
+termination_reason,converged
+unserved_share_of_routing_demand,0.0

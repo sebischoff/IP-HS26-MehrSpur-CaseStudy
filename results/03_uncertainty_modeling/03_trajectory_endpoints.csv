@@ -1,0 +1,11 @@
+﻿uncertainty,category,transient,Year 1 status,Year 1 (u=.5),Year 40 (u=.5),Year 40 (u=.1),Year 40 (u=.9)
+PASSENGER_DEMAND_GROWTH,transport_modelling,True,Fixed starting value,0.0,0.1741657386773941,-0.032667994693184904,0.3550862325381056
+PT_ASC_SHIFT,transport_modelling,True,Fixed starting value,0.0,0.1,-0.010557280900008417,0.21055728090000844
+BIKE_ASC_SHIFT,transport_modelling,True,Fixed starting value,0.0,0.2254033307585166,-0.17596296507960701,0.6535898384862247
+EBIKE_SHARE,transport_modelling,True,Fixed starting value,0.25,0.5401923788646683,0.4321583836257749,0.6838104996137775
+ROAD_FREIGHT_GROWTH,transport_modelling,True,Fixed starting value,0.0,0.1,0.035922421722769965,0.16407757827723005
+CAR_CO2_KG_PER_VEHICLE_KM,post_modelling,True,Fixed starting value,0.139,0.05,0.040388363258415494,0.05961163674158451
+OPEX_MULTIPLIER,post_modelling,False,Sampled from Year 1,1.0,1.0,0.6,1.4
+CAPEX_MULTIPLIER,post_modelling,False,Sampled from Year 1,1.0,1.0,0.8894427190999916,1.1105572809000084
+ACCIDENT_COST_MULTIPLIER,post_modelling,True,Fixed starting value,1.0,0.85,0.6866021753930633,1.0133978246069366
+LOCAL_AIR_COST_MULTIPLIER,post_modelling,True,Fixed starting value,1.0,0.65,0.5250487223594015,0.7749512776405986

@@ -1,0 +1,12 @@
+﻿,Calibration
+Modeled passengers/day,68198.97280865573
+Observed passengers/day,120000
+Suggested supplementary passengers/day,51801.02719134427
+Configured supplementary passengers/day,53108.0495332632
+Modeled + configured supplementary/day,121307.02234191893
+Suggested comfort capacity/peak hour,11352.0
+Road relative gap,0.017217255787462638
+Iterations,20
+OD cutoff (vehicles/hour),0.0
+Termination,converged
+Reference settings and convergence satisfied,True
