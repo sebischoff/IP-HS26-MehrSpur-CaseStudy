@@ -1,6 +1,6 @@
 ﻿diagnostic,value
 algorithm,method of successive averages (MSA) with BPR link times
-runtime_s,9.03974449999805
+runtime_s,11.771437624996906
 iterations,16
 max_iterations,64
 min_iterations,8
@@ -41,4 +41,4 @@ npvm_background_trips,17159.957721299998
 external_endpoint_background_trips,30600.063665051406
 assignment_vehicle_trips,133785.3601039011
 demand_component_scope,retained corridor OD before assignment cutoff
-mode_choice_cache_key,"[0, 1.0, 0.0, 0.0, 0.25, 'abd5db9c520276a40bc85edaadb206f96f0a09844ca6eb0e85a5c31d4f10e4a1']"
+mode_choice_cache_key,"[0, 1.0, 0.0, 0.0, 0.25, '3c71fe24f97a2511bd266bda4c013f235003cd712b5bd4cf4689b22219276661']"
