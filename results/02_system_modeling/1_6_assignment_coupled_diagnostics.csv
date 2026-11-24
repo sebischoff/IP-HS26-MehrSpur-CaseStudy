@@ -1,7 +1,7 @@
 ﻿diagnostic,value
 algorithm,coupled MSA/BPR assignment and five-mode logit
 modal_feedback,True
-runtime_s,32.52567995799836
+runtime_s,49.587279167000816
 iterations,20
 max_iterations,64
 min_iterations,8
