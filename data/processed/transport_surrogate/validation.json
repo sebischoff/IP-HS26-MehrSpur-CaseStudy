@@ -294,16 +294,16 @@
     "passed": false
   },
   "paired_appraisal": {
-    "passed": false,
+    "passed": true,
     "checks": {
       "total_benefit_mae": {
-        "value": 1205742.5571622849,
-        "limit": 1000000.0,
-        "passed": false
+        "value": 862320.337847964,
+        "limit": 1607381.3637203218,
+        "passed": true
       },
       "total_benefit_p95_error": {
-        "value": 3083689.0721641537,
-        "limit": 5000000.0,
+        "value": 2291530.177401447,
+        "limit": 5503795.879240189,
         "passed": true
       },
       "material_total_sign_errors": {
@@ -340,16 +340,16 @@
     "paired_components": {
       "bike_health": {
         "n": 15,
-        "mean_reference": 0.0,
-        "mean_absolute_error": 0.0,
-        "rmse": 0.0,
-        "nrmse": 0.0,
-        "median_absolute_relative_error": null,
-        "max_absolute_relative_error": null,
-        "material": false,
-        "mean_absolute_reference": 0.0,
-        "error_limit_chf_per_year": 1000000.0,
-        "passed": null
+        "mean_reference": 12624481.68087683,
+        "mean_absolute_error": 346281.0437029243,
+        "rmse": 432245.43202632025,
+        "nrmse": 0.023868606543126152,
+        "median_absolute_relative_error": 0.016896057802253603,
+        "max_absolute_relative_error": 0.1914726844996164,
+        "material": true,
+        "mean_absolute_reference": 12624481.68087683,
+        "error_limit_chf_per_year": 1262448.1680876832,
+        "passed": true
       },
       "bike_time": {
         "n": 15,
@@ -496,14 +496,14 @@
       },
       "operation": {
         "n": 15,
-        "mean_reference": -418387.8933333334,
+        "mean_reference": -450559.8933333334,
         "mean_absolute_error": 0.0,
         "rmse": 0.0,
         "nrmse": 0.0,
         "median_absolute_relative_error": null,
         "max_absolute_relative_error": null,
         "material": false,
-        "mean_absolute_reference": 418387.8933333334,
+        "mean_absolute_reference": 450559.8933333334,
         "error_limit_chf_per_year": 1000000.0,
         "passed": null
       },
@@ -652,15 +652,15 @@
       },
       "total": {
         "n": 15,
-        "mean_reference": 19555317.5935297,
-        "mean_absolute_error": 1205742.5571622849,
-        "rmse": 1503023.1458307393,
-        "nrmse": 0.04763427678015976,
-        "median_absolute_relative_error": 0.045704897844519,
-        "max_absolute_relative_error": 0.39577582609257805,
+        "mean_reference": 32147627.274406433,
+        "mean_absolute_error": 862320.337847964,
+        "rmse": 1082275.0168502068,
+        "nrmse": 0.02181368071993811,
+        "median_absolute_relative_error": 0.021542996417638537,
+        "max_absolute_relative_error": 0.17329977979903863,
         "material": false,
-        "mean_absolute_reference": 19555317.5935297,
-        "error_limit_chf_per_year": 1955531.7593529702,
+        "mean_absolute_reference": 32147627.274406433,
+        "error_limit_chf_per_year": 3214762.7274406436,
         "passed": null
       },
       "upfront": {
@@ -761,12 +761,12 @@
         },
         "total_cost": {
           "n": 5,
-          "mean_reference": 7640282440.37041,
-          "mean_absolute_error": 477086.4864519119,
-          "rmse": 511294.98583825777,
-          "nrmse": 0.00012421526952812218,
-          "median_absolute_relative_error": 6.425800888265868e-05,
-          "max_absolute_relative_error": 0.00010335361479037197
+          "mean_reference": 7118358408.6760435,
+          "mean_absolute_error": 358532.2702550888,
+          "rmse": 439144.4173086694,
+          "nrmse": 0.0001126996392651149,
+          "median_absolute_relative_error": 4.683563925181203e-05,
+          "max_absolute_relative_error": 0.0001173380070331007
         },
         "walk_share": {
           "n": 5,
@@ -835,12 +835,12 @@
         },
         "total_cost": {
           "n": 5,
-          "mean_reference": 7618784762.096762,
-          "mean_absolute_error": 964667.5633184433,
-          "rmse": 1185731.1901114665,
-          "nrmse": 0.00028896686629401204,
-          "median_absolute_relative_error": 7.713463427312282e-05,
-          "max_absolute_relative_error": 0.00023934122827529362
+          "mean_reference": 7082291089.81159,
+          "mean_absolute_error": 745083.663685608,
+          "rmse": 919154.9520779005,
+          "nrmse": 0.00023702872826209318,
+          "median_absolute_relative_error": 6.409774080595859e-05,
+          "max_absolute_relative_error": 0.0001962692754592441
         },
         "walk_share": {
           "n": 5,
@@ -909,12 +909,12 @@
         },
         "total_cost": {
           "n": 5,
-          "mean_reference": 7632161787.26441,
-          "mean_absolute_error": 2793120.660400772,
-          "rmse": 3259100.192317124,
-          "nrmse": 0.0007926609145321924,
-          "median_absolute_relative_error": 0.00038497648008144973,
-          "max_absolute_relative_error": 0.0005550036735458019
+          "mean_reference": 7105543054.159986,
+          "mean_absolute_error": 2249117.8556388854,
+          "rmse": 2634867.606900429,
+          "nrmse": 0.0006773112059404947,
+          "median_absolute_relative_error": 0.00031984979167250173,
+          "max_absolute_relative_error": 0.00046205111722315707
         },
         "walk_share": {
           "n": 5,
@@ -983,12 +983,12 @@
         },
         "total_cost": {
           "n": 5,
-          "mean_reference": 7608468172.651915,
-          "mean_absolute_error": 1653508.9880573272,
-          "rmse": 1939576.2237452709,
-          "nrmse": 0.00047321257938964453,
-          "median_absolute_relative_error": 0.0002022870814503244,
-          "max_absolute_relative_error": 0.0003195801635169228
+          "mean_reference": 7068031553.915781,
+          "mean_absolute_error": 1301705.8506580354,
+          "rmse": 1518265.7723913165,
+          "nrmse": 0.0003921767876612421,
+          "median_absolute_relative_error": 0.0001681405691056401,
+          "max_absolute_relative_error": 0.0002827044034994085
         },
         "walk_share": {
           "n": 5,
@@ -1043,6 +1043,7 @@
       "C_TT_PT_TRANSFER": 26.52,
       "C_TT_BIKE": 35.0,
       "C_TT_WALK": 16.0,
+      "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,
       "CAR_CO2_KG_PER_VEHICLE_KM": 0.139,
       "CAR_CO2_KG_PER_VEHICLE_KM_Y40": 0.05,
       "RAIL_ENERGY_WH_PER_GROSS_TONNE_KM": 30.0,
@@ -1069,7 +1070,7 @@
       "BIKE_SHARE_TARGET": 0.08,
       "CAR_SHARE_TARGET": 0.55,
       "MIN_STRATEGIC_PKM_DISTANCE": 1.0,
-      "C_INV_STAGE1": 28690972,
+      "C_INV_STAGE1": 31103872,
       "CAPACITY_INCREASE_STAGE1": 0.0,
       "C_INV_STAGE2": 2688120,
       "CAPACITY_INCREASE_STAGE2": 0.0,

@@ -265,7 +265,7 @@ PACKAGES = {
            # },
      #   ],
         "appraisal": {
-            "capital_cost_chf": 28690972, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
+            "capital_cost_chf": 31103872, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
             "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
             "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
             #WICHTIG: operational costs! 156672 CHF
