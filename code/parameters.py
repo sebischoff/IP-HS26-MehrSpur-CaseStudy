@@ -207,7 +207,6 @@ DETAILED_NETWORK_FILE = None  # Example: "data/processed/my_project_detailed_net
 # Example: enable zone selection, define groups, then flatten their IDs.
 CORRIDOR_DEFINITION_MODE = "zones"
 PROJECT_ZONES = {
-    # Zurich city quarter Altstetten (includes the Grünau area; no separate quarter in ctx.zones)
     "Zürich Quartiere": [
         "26101001", "26101002", "26101003", "26101004", "26101006",
         "26101008", "26101010", "26101012", "26101013", "26101015",

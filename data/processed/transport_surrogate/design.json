@@ -11,9 +11,9 @@
     },
     "points_added": 0,
     "final_holdout_metrics": {
-      "weighted_rmse_min": 0.24101776689426685
+      "weighted_rmse_min": 0.15024050191626562
     },
-    "target_reached": false
+    "target_reached": true
   },
   "seed": 42,
   "records": [
@@ -1580,7 +1580,7 @@
   ],
   "cache_contract": {
     "format_version": 3,
-    "model_fingerprint": "b6125db5c4a54d1bb79b",
+    "model_fingerprint": "2af2afcc6807a3aba73e",
     "reference_equations": "19783b770214fd1a0541",
     "solver_settings": {
       "stopping_rule": "road_relative_gap",
@@ -1746,16 +1746,129 @@
   "physical_inputs": {
     "identity_version": 2,
     "corridor": {
-      "mode": "municipalities",
-      "municipalities": [
-        "Dietikon",
-        "Geroldswil",
-        "Schlieren",
-        "Unterengstringen",
-        "Weiningen (ZH)",
-        "Z\u00fcrich"
-      ],
-      "zone_ids": []
+      "mode": "zones",
+      "municipalities": [],
+      "zone_ids": [
+        "24301001",
+        "24301002",
+        "24301003",
+        "24301004",
+        "24301005",
+        "24301006",
+        "24301007",
+        "24301008",
+        "24301009",
+        "24301010",
+        "24301011",
+        "24301012",
+        "24301013",
+        "24301014",
+        "24301015",
+        "24301016",
+        "24301017",
+        "24301018",
+        "24301019",
+        "24301020",
+        "24301021",
+        "24301022",
+        "24301023",
+        "24301024",
+        "24301025",
+        "24301026",
+        "24301027",
+        "24401001",
+        "24401002",
+        "24401003",
+        "24401004",
+        "24401005",
+        "24501001",
+        "24501002",
+        "24501003",
+        "24501004",
+        "24701001",
+        "24701002",
+        "24701003",
+        "24701004",
+        "24701005",
+        "24701006",
+        "24701007",
+        "24701008",
+        "24701009",
+        "24701010",
+        "24701011",
+        "24701012",
+        "24701013",
+        "24701014",
+        "24701015",
+        "24701016",
+        "24701017",
+        "24701018",
+        "24701019",
+        "24701020",
+        "24901001",
+        "24901002",
+        "24901003",
+        "25001001",
+        "25001002",
+        "25001003",
+        "25001004",
+        "25001005",
+        "25001006",
+        "25001007",
+        "25001008",
+        "25001009",
+        "25101001",
+        "25101002",
+        "25101003",
+        "25101004",
+        "26101001",
+        "26101002",
+        "26101003",
+        "26101004",
+        "26101005",
+        "26101006",
+        "26101007",
+        "26101008",
+        "26101009",
+        "26101010",
+        "26101011",
+        "26101012",
+        "26101013",
+        "26101014",
+        "26101015",
+        "26101016",
+        "26101017",
+        "26101018",
+        "26101019",
+        "26101020",
+        "26101021",
+        "26101022",
+        "26101023",
+        "26101024",
+        "26101025",
+        "26101026",
+        "26101027",
+        "26101028",
+        "26101029",
+        "26101030",
+        "26101031",
+        "26101032",
+        "26101033",
+        "26101034",
+        "26101035",
+        "26101036",
+        "26101037",
+        "26101039",
+        "26101041",
+        "26101042",
+        "26101043",
+        "26101045",
+        "26101046",
+        "26101054",
+        "26101058",
+        "26101064",
+        "26103306"
+      ]
     },
     "stages": {
       "0": {
@@ -1781,7 +1894,7 @@
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 23.0,
+              "speed_increase_pct": 23.0,
               "distance_reduction_pct": 5.0
             }
           },
@@ -1792,13 +1905,13 @@
                   "municipality_name": "Schlieren"
                 },
                 "destination": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 23.0,
+              "speed_increase_pct": 23.0,
               "distance_reduction_pct": 5.0
             }
           },
@@ -1809,141 +1922,20 @@
                   "municipality_name": "Dietikon"
                 },
                 "destination": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 23.0,
+              "speed_increase_pct": 23.0,
               "distance_reduction_pct": 5.0
             }
           }
         ],
         "railway_expansions": [
           {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              }
-            ],
+            "area_pairs": [],
             "both_directions": true,
             "effects": {
               "travel_time_reduction_pct": 0.0,
@@ -1976,7 +1968,7 @@
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 15.4
+              "speed_increase_pct": 15.4
             }
           },
           {
@@ -1986,140 +1978,35 @@
                   "municipality_name": "Schlieren"
                 },
                 "destination": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 15.4
+              "speed_increase_pct": 15.4
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Dietikon"
+                },
+                "destination": {
+                  "city_quartier": "Altstetten"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 15.4
             }
           }
         ],
         "railway_expansions": [
           {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              }
-            ],
+            "area_pairs": [],
             "both_directions": true,
             "effects": {
               "travel_time_reduction_pct": 0.0,
@@ -2152,7 +2039,7 @@
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 23.0,
+              "speed_increase_pct": 23.0,
               "distance_reduction_pct": 5.0
             }
           },
@@ -2163,30 +2050,13 @@
                   "municipality_name": "Schlieren"
                 },
                 "destination": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 23.0,
-              "distance_reduction_pct": 5.0
-            }
-          },
-          {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Z\u00fcrich"
-                }
-              }
-            ],
-            "both_directions": true,
-            "effects": {
-              "travel_time_reduction_pct": 23.0,
+              "speed_increase_pct": 23.0,
               "distance_reduction_pct": 5.0
             }
           },
@@ -2197,13 +2067,30 @@
                   "municipality_name": "Dietikon"
                 },
                 "destination": {
+                  "city_quartier": "Altstetten"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 23.0,
+              "distance_reduction_pct": 5.0
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Dietikon"
+                },
+                "destination": {
                   "municipality_name": "Schlieren"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 15.4
+              "speed_increase_pct": 15.4
             }
           },
           {
@@ -2213,13 +2100,29 @@
                   "municipality_name": "Schlieren"
                 },
                 "destination": {
-                  "municipality_name": "Z\u00fcrich"
+                  "city_quartier": "Altstetten"
                 }
               }
             ],
             "both_directions": true,
             "effects": {
-              "travel_time_reduction_pct": 15.4
+              "speed_increase_pct": 15.4
+            }
+          },
+          {
+            "area_pairs": [
+              {
+                "origin": {
+                  "municipality_name": "Dietikon"
+                },
+                "destination": {
+                  "city_quartier": "Altstetten"
+                }
+              }
+            ],
+            "both_directions": true,
+            "effects": {
+              "speed_increase_pct": 15.4
             }
           },
           {
@@ -2276,128 +2179,7 @@
         ],
         "railway_expansions": [
           {
-            "area_pairs": [
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Dietikon"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Z\u00fcrich"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Schlieren"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Dietikon"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Unterengstringen"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Schlieren"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Weiningen (ZH)"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Unterengstringen"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              },
-              {
-                "origin": {
-                  "municipality_name": "Weiningen (ZH)"
-                },
-                "destination": {
-                  "municipality_name": "Geroldswil"
-                }
-              }
-            ],
+            "area_pairs": [],
             "both_directions": true,
             "effects": {
               "travel_time_reduction_pct": 0.0,
@@ -2450,7 +2232,7 @@
     "prepared_inputs": {
       "data/transport/config/mode_choice.json": "b099f6dbfe7c3f2b0f72868ccb0598a0a4b7653ea34cf37a85e1ad1111f13d85",
       "cache/tmi_context.pkl": "4c1c937039567c8373c7251bec4b18da22ea7882db5f245c4c9b30aed52f7037",
-      "data/processed/mehrspur_detailed_network.pkl": "cb6e33746a536239f3c07c599d2a8707d1494783edde14a603adb48ef64f7763"
+      "data/processed/mehrspur_detailed_network.pkl": "2ecb8f6d4bd503c1b60313b1dc15dbdcee505dcb8ad798f90bce98c217355ae1"
     },
     "reference_equations": {
       "code/transport_model_interface.py:_corridor_shortest_time_table": "35336b26fbbc94b8b970c35160c3eb6fa2c63177c73be6a813187749ca38a533",
@@ -2604,16 +2386,16 @@
   },
   "source_sha256": {
     "code/__init__.py": "421c01f1af482c603c7f45d91add8e927486e49ac37088d74d7237823d6ad9fa",
-    "code/adaptive_planning.py": "ce8bce5f2ac203d641b14971e2bc54eb3f8ea2df72331549599f84689b802300",
+    "code/adaptive_planning.py": "060bbd3d0939fe031bebfc215bd73747b10c71c3984e5fdc9d060bfb942f0980",
     "code/additional/__init__.py": "9ddd4b71b697c94056a009a1676c42259102b25623ff5b5a4f57836b4779d23a",
     "code/additional/notebook_exports.py": "3a83839a9217a775f994c1d88c998ad4b4e217b76e8a1ee5639d5e0675d6b8a4",
     "code/additional/section_flows.py": "8b0c3fdf9c036f7a634636d8a06de4c67375be2f08349a588ce2a43d47e8932a",
     "code/additional/transport_display.py": "ab09ab70c65a0e1386b1d67bfac717cb219e3170870178443fa933e2edc8c3a4",
     "code/additional/trigger_optimization.py": "a0c80d8e99d7aca004eb50da27543c6936ad13b32c856dcbf22be1359fc8af06",
     "code/additional/uncertainty.py": "10432673e33b9059824cb75f9286c19dcf93cb8cb896552081597c4e566d8141",
-    "code/parameters.py": "19b09f083d5040a1f4af3edd9f658f762515fe90acb2611cfc99cd9b2d2bc3a3",
+    "code/parameters.py": "bff7069d0e4adb01ea67331c697206265300ce271b4bc16f59731ff78d2fb386",
     "code/simulation_engine.py": "61e9a8a2dc1470643f5ce7ea7756811b321299c92d6883e828b15cf19db5c5e3",
-    "code/stages.py": "20bcd9b868f2541a251025293beef358b871eafdb30206238d2a408d83ea42a1",
+    "code/stages.py": "94ac7e953860bfbd304265b10f028982e109274a570dd449a7a32e549ac0cc6f",
     "code/surrogate_model/__init__.py": "913ec659a888396e56db37d5d0971f4d767e6d3aafd10690442bb78f27b867ea",
     "code/surrogate_model/build_transport_surrogate.py": "8ce85c6ce093b33cf47b56c15bcd305f0d74262eea8f912fb022c3844dfc02f9",
     "code/surrogate_model/od_gp.py": "ce03b9601c671d06974fc5acece46eed4867f9f139a5e130e8bd39cd0e7a04bf",
@@ -2635,16 +2417,16 @@
   },
   "reference_source_sha256": {
     "code/__init__.py": "421c01f1af482c603c7f45d91add8e927486e49ac37088d74d7237823d6ad9fa",
-    "code/adaptive_planning.py": "ce8bce5f2ac203d641b14971e2bc54eb3f8ea2df72331549599f84689b802300",
+    "code/adaptive_planning.py": "060bbd3d0939fe031bebfc215bd73747b10c71c3984e5fdc9d060bfb942f0980",
     "code/additional/__init__.py": "9ddd4b71b697c94056a009a1676c42259102b25623ff5b5a4f57836b4779d23a",
     "code/additional/notebook_exports.py": "3a83839a9217a775f994c1d88c998ad4b4e217b76e8a1ee5639d5e0675d6b8a4",
     "code/additional/section_flows.py": "8b0c3fdf9c036f7a634636d8a06de4c67375be2f08349a588ce2a43d47e8932a",
     "code/additional/transport_display.py": "ab09ab70c65a0e1386b1d67bfac717cb219e3170870178443fa933e2edc8c3a4",
     "code/additional/trigger_optimization.py": "a0c80d8e99d7aca004eb50da27543c6936ad13b32c856dcbf22be1359fc8af06",
     "code/additional/uncertainty.py": "10432673e33b9059824cb75f9286c19dcf93cb8cb896552081597c4e566d8141",
-    "code/parameters.py": "64642dd5bb7b744a2f6b5aacda1e03fc2777ce829a49f96fd60db811ce7ef714",
+    "code/parameters.py": "bff7069d0e4adb01ea67331c697206265300ce271b4bc16f59731ff78d2fb386",
     "code/simulation_engine.py": "61e9a8a2dc1470643f5ce7ea7756811b321299c92d6883e828b15cf19db5c5e3",
-    "code/stages.py": "061a2342146012b6809be3582a4d18c52a857578962d3777c20d257293809c86",
+    "code/stages.py": "94ac7e953860bfbd304265b10f028982e109274a570dd449a7a32e549ac0cc6f",
     "code/surrogate_model/__init__.py": "913ec659a888396e56db37d5d0971f4d767e6d3aafd10690442bb78f27b867ea",
     "code/surrogate_model/build_transport_surrogate.py": "8ce85c6ce093b33cf47b56c15bcd305f0d74262eea8f912fb022c3844dfc02f9",
     "code/surrogate_model/od_gp.py": "ce03b9601c671d06974fc5acece46eed4867f9f139a5e130e8bd39cd0e7a04bf",

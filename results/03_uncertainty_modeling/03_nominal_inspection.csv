@@ -1,5 +1,5 @@
 ﻿indicator,value,unit,definition
-pt_share,0.36466658814413305,%,Common-distance-weighted PT share for reporting-area modeled trips at or above MIN_STRATEGIC_PKM_DISTANCE.
-bike_share_trips,0.15985568127805755,%,"Share of reporting-area modeled peak person-trips, including short trips."
-walk_share_trips,0.3445029338664157,%,"Share of reporting-area modeled peak person-trips, including short trips."
-pt_journey_time_min,27.148254657949202,min/trip,In-vehicle + waiting + access + egress + transfer-walking time per reporting-area modeled PT passenger. Excludes crowding and supplementary passengers; passenger composition can change across plans.
+pt_share,0.3317752151442118,%,Common-distance-weighted PT share for reporting-area modeled trips at or above MIN_STRATEGIC_PKM_DISTANCE.
+bike_share_trips,0.18415554170227383,%,"Share of reporting-area modeled peak person-trips, including short trips."
+walk_share_trips,0.29684663545799067,%,"Share of reporting-area modeled peak person-trips, including short trips."
+pt_journey_time_min,27.403390463692755,min/trip,In-vehicle + waiting + access + egress + transfer-walking time per reporting-area modeled PT passenger. Excludes crowding and supplementary passengers; passenger composition can change across plans.

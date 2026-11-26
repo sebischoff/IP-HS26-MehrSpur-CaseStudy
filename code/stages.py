@@ -244,7 +244,7 @@ PACKAGES = {
                 "effects": {"speed_increase_pct": 23.0, "distance_reduction_pct": 5.0},
             },
             {
-                "name": "Schlieren-Zürich",
+                "name": "Schlieren-Zürich Altstetten",
                 "area_pairs": [
                     {"origin": {"municipality_name": "Schlieren"},
                      "destination": {"city_quartier": "Altstetten"}}
@@ -253,7 +253,7 @@ PACKAGES = {
                 "effects": {"speed_increase_pct": 23.0, "distance_reduction_pct": 5.0},
             },
             {
-                            "name": "Dietikon-Zürich",
+                            "name": "Dietikon-Zürich Altstetten",
                             "area_pairs": [
                                 {"origin": {"municipality_name": "Dietikon"},
                                  "destination": {"city_quartier": "Altstetten"}}
@@ -313,7 +313,7 @@ PACKAGES = {
                 "effects": {"speed_increase_pct": 15.4},
             },
             {
-                "name": "Schlieren-Zürich TT reduction 23",
+                "name": "Schlieren-Zürich Altstetten TT reduction 23",
                 "area_pairs": [
                     {"origin": {"municipality_name": "Schlieren"},
                      "destination": {"city_quartier": "Altstetten"}}
@@ -322,7 +322,7 @@ PACKAGES = {
                 "effects": {"speed_increase_pct": 15.4},
             },
             {
-                            "name": "Dietikon-Zürich TT reduction 23",
+                            "name": "Dietikon-Zürich Altstetten TT reduction 23",
                             "area_pairs": [
                                 {"origin": {"municipality_name": "Dietikon"},
                                  "destination": {"city_quartier": "Altstetten"}}

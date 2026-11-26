@@ -8,6 +8,6 @@ requirement_1,flexible,none,,
 requirement_2,staged1,none,,
 requirement_2,static2,none,,
 requirement_2,flexible,none,,
-requirement_3,staged1,Plan PRIM box,0.808641975308642,1.0
-requirement_3,static2,Plan PRIM box,0.808641975308642,1.0
-requirement_3,flexible,Plan PRIM box,0.808641975308642,0.9924242424242424
+requirement_3,staged1,none,,
+requirement_3,static2,none,,
+requirement_3,flexible,none,,
