@@ -1,13 +1,13 @@
 ﻿requirement,failure_percent,mean_failure_years,configuration
 Cycling trip share > 16.5 % (Years 15–40),32.5,2.42,Stage 0 – Baseline Network
-Cycling share (strategic PKM) > 10.5 % (Years 15–40),45.5,1.87,Stage 0 – Baseline Network
-Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),70.5,2.08,Stage 0 – Baseline Network
+Cycling share (strategic PKM) > 11 % (Years 5–40),100.0,14.43,Stage 0 – Baseline Network
+Operating CO2 (car + rail) < 240000 tonnes/year (Years 10–40),100.0,5.68,Stage 0 – Baseline Network
 Cycling trip share > 16.5 % (Years 15–40),16.5,1.5,STAGE 1 - Limmattal_bike_highway
-Cycling share (strategic PKM) > 10.5 % (Years 15–40),11.0,0.66,STAGE 1 - Limmattal_bike_highway
-Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),66.0,1.83,STAGE 1 - Limmattal_bike_highway
+Cycling share (strategic PKM) > 11 % (Years 5–40),100.0,12.24,STAGE 1 - Limmattal_bike_highway
+Operating CO2 (car + rail) < 240000 tonnes/year (Years 10–40),100.0,5.53,STAGE 1 - Limmattal_bike_highway
 Cycling trip share > 16.5 % (Years 15–40),26.0,2.05,Stage 2 - Limmattal_bike_highway_underpasses
-Cycling share (strategic PKM) > 10.5 % (Years 15–40),34.5,1.47,Stage 2 - Limmattal_bike_highway_underpasses
-Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),68.5,2.02,Stage 2 - Limmattal_bike_highway_underpasses
+Cycling share (strategic PKM) > 11 % (Years 5–40),100.0,13.85,Stage 2 - Limmattal_bike_highway_underpasses
+Operating CO2 (car + rail) < 240000 tonnes/year (Years 10–40),100.0,5.66,Stage 2 - Limmattal_bike_highway_underpasses
 Cycling trip share > 16.5 % (Years 15–40),13.0,1.26,Both stages - Cycleway + Underpasses
-Cycling share (strategic PKM) > 10.5 % (Years 15–40),7.5,0.53,Both stages - Cycleway + Underpasses
-Operating CO2 (car + rail) < 260000 tonnes/year (Years 10–40),65.5,1.8,Both stages - Cycleway + Underpasses
+Cycling share (strategic PKM) > 11 % (Years 5–40),100.0,11.52,Both stages - Cycleway + Underpasses
+Operating CO2 (car + rail) < 240000 tonnes/year (Years 10–40),100.0,5.52,Both stages - Cycleway + Underpasses

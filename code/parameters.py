@@ -71,7 +71,7 @@ NOMINAL_PARAMS = {
     # Cycling/walking use the processor's teaching assumption; no off-peak solve is run.
     "PT_PEAK_SHARE": 0.0946,  # Representative peak-hour PT trips / weekday PT trips; NPVM conversion assumption.
     "CAR_PEAK_SHARE": 0.1049,  # Representative peak-hour car trips / weekday car trips; NPVM conversion assumption.
-    "BIKE_PEAK_SHARE": 0.15,  # Peak-pt_share share of daily cycling trips; editable teaching assumption.
+    "BIKE_PEAK_SHARE": 0.15,  # Peak-hare share of daily cycling trips; editable teaching assumption.
     "WALK_PEAK_SHARE": 0.15,  # Peak-hour share of daily walking trips; editable teaching assumption.
     "EQUIVALENT_DAYS_PER_YEAR": 300,  # Equivalent operating weekdays represented in one appraisal year.
     "NUMBER_OF_PEAK_HOURS": 4,  # Hours/day exposed to modeled congestion and crowding; integer sensitivity.

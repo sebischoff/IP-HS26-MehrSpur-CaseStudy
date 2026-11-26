@@ -1,4 +1,4 @@
 ﻿requirement,first_failure_year,failure_years,assessment_start,assessment_end
 1: bike_share_trips > 0.165,,0,15,40
-2: bike_share > 0.105,,0,15,40
-3: operating_co2_tonnes < 260000,,0,10,40
+2: bike_share > 0.11,5.0,4,5,40
+3: operating_co2_tonnes < 240000,10.0,3,10,40
