@@ -120,22 +120,24 @@ PLAN_DEFINITIONS = {
     },
     "static1": { #deploy cycleway in year 1, no underpasses
         "name": "Static 1",
+        "cycleway": {"type": "fixed", "opening_year": 3},
         "initial_packages": ["cycleway"], "cycleway": None, "underpasses": None,
     },
     "static2": { #deploy both stages in year 1
         "name": "Static 2",
+        "cycleway": {"type": "fixed", "opening_year": 3},
         "initial_packages": ["cycleway", "underpasses"], "cycleway": None, "underpasses": None,
     },
     "staged1": {
         "name": "Staged 1",
         "initial_packages": [],
-        "cycleway": {"type": "fixed", "opening_year": 1},
+        "cycleway": {"type": "fixed", "opening_year": 4},
         "underpasses": {"type": "fixed", "opening_year": 10},
     },
     "staged2": {
         "name": "Staged 2",
         "initial_packages": [],
-        "cycleway": {"type": "fixed", "opening_year": 1},
+        "cycleway": {"type": "fixed", "opening_year": 4},
         "underpasses": {"type": "fixed", "opening_year": 20},
     },
     "flexible": {

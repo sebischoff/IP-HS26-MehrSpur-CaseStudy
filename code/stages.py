@@ -241,25 +241,25 @@ PACKAGES = {
                      "destination": {"municipality_name": "Schlieren"}}
                 ],
                 "both_directions": True,
-                "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
+                "effects": {"speed_increase_pct": 23.0, "distance_reduction_pct": 5.0},
             },
             {
                 "name": "Schlieren-Zürich",
                 "area_pairs": [
                     {"origin": {"municipality_name": "Schlieren"},
-                     "destination": {"municipality_name": "Zürich"}}
+                     "destination": {"city_quartier": "Altstetten"}}
                 ],
                 "both_directions": True,
-                "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
+                "effects": {"speed_increase_pct": 23.0, "distance_reduction_pct": 5.0},
             },
             {
                             "name": "Dietikon-Zürich",
                             "area_pairs": [
                                 {"origin": {"municipality_name": "Dietikon"},
-                                 "destination": {"municipality_name": "Zürich"}}
+                                 "destination": {"city_quartier": "Altstetten"}}
                             ],
                             "both_directions": True,
-                            "effects": {"travel_time_reduction_pct": 23.0, "distance_reduction_pct": 5.0},
+                            "effects": {"speed_increase_pct": 23.0, "distance_reduction_pct": 5.0},
             },
         ],
            # },
@@ -310,17 +310,26 @@ PACKAGES = {
                      "destination": {"municipality_name": "Schlieren"}}
                 ],
                 "both_directions": True,
-                "effects": {"travel_time_reduction_pct": 15.4},
+                "effects": {"speed_increase_pct": 15.4},
             },
             {
                 "name": "Schlieren-Zürich TT reduction 23",
                 "area_pairs": [
                     {"origin": {"municipality_name": "Schlieren"},
-                     "destination": {"municipality_name": "Zürich"}}
+                     "destination": {"city_quartier": "Altstetten"}}
                 ],
                 "both_directions": True,
-                "effects": {"travel_time_reduction_pct": 15.4},
+                "effects": {"speed_increase_pct": 15.4},
             },
+            {
+                            "name": "Dietikon-Zürich TT reduction 23",
+                            "area_pairs": [
+                                {"origin": {"municipality_name": "Dietikon"},
+                                 "destination": {"city_quartier": "Altstetten"}}
+                            ],
+                            "both_directions": True,
+                            "effects": {"speed_increase_pct": 15.4},
+                        },
         ],   
        # {
        #     "area_pairs": [
