@@ -1,7 +1,5 @@
 ﻿requirement,plan,scenarios,failures,failure_percent,status,accepted,density,coverage,density_threshold
-1: bike_share_trips > 0.165,baseline,200,0,0.0,No requirement failures,False,,,0.75
-1: bike_share_trips > 0.165,adaptive,200,0,0.0,No requirement failures,False,,,0.75
-2: bike_share > 0.11,baseline,200,0,0.0,No requirement failures,False,,,0.75
-2: bike_share > 0.11,adaptive,200,0,0.0,No requirement failures,False,,,0.75
-3: operating_co2_tonnes < 240000,baseline,200,0,0.0,No requirement failures,False,,,0.75
-3: operating_co2_tonnes < 240000,adaptive,200,0,0.0,No requirement failures,False,,,0.75
+1: bike_share_trips > 0.17,baseline,200,2,1.0,Too few cases: need 15 per class,False,,,0.75
+1: bike_share_trips > 0.17,adaptive,200,2,1.0,Too few cases: need 15 per class,False,,,0.75
+2: operating_co2_tonnes < 95000,baseline,200,187,93.5,Too few cases: need 15 per class,False,,,0.75
+2: operating_co2_tonnes < 95000,adaptive,200,187,93.5,Too few cases: need 15 per class,False,,,0.75

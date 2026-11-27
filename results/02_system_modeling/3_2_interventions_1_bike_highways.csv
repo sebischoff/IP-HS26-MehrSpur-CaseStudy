@@ -1,4 +1,4 @@
 ﻿Enabled,Intervention,Scope,speed_increase_pct,distance_reduction_pct
 True,Dietikon-Schlieren,municipality_name: Dietikon → municipality_name: Schlieren,23.0,5.0
-True,Schlieren-Zürich,municipality_name: Schlieren → city_quartier: Altstetten,23.0,5.0
-True,Dietikon-Zürich,municipality_name: Dietikon → city_quartier: Altstetten,23.0,5.0
+True,Schlieren-Zürich Altstetten,municipality_name: Schlieren → city_quartier: Altstetten,23.0,5.0
+True,Dietikon-Zürich Altstetten,municipality_name: Dietikon → city_quartier: Altstetten,23.0,5.0

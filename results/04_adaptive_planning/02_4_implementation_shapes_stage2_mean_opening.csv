@@ -1,4 +1,4 @@
 ﻿shape1,linear,early,logistic
-linear,,,
-early,,,
-logistic,,,
+linear,20.0,14.2,22.8
+early,19.8,13.7,22.4
+logistic,20.2,14.2,22.9

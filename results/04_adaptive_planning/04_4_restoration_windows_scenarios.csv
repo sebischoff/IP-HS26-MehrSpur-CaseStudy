@@ -1,40 +1,40 @@
 ﻿scenario,transition,source_state,target_state,package,window_count,restorable_years,has_reachable_window,all_windows_reachable,first_window_start,last_window_end,last_restoration_decision_year
 0,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 0,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-0,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-0,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+0,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,12.0,12.0,9.0
+0,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 1,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 1,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 1,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 1,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 2,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 2,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-2,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-2,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+2,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,14.0,14.0,11.0
+2,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,14.0,14.0,12.0
 3,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 3,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 3,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 3,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 4,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 4,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-4,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-4,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+4,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,9.0,9.0,6.0
+4,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
 5,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 5,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-5,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-5,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-6,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+5,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,9.0,9.0,6.0
+5,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
+6,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,11.0,11.0,9.0
 6,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 6,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-6,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+6,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 7,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 7,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-7,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-7,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-8,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+7,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,12.0,12.0,9.0
+7,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
+8,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,12.0,12.0,10.0
 8,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 8,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-8,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+8,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 9,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 9,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 9,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -53,16 +53,16 @@
 12,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 13,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 13,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-13,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-13,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+13,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+13,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 14,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 14,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 14,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 14,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-15,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+15,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,11.0,11.0,9.0
 15,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 15,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-15,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+15,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 16,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 16,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 16,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -75,22 +75,22 @@
 18,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 18,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 18,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-19,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+19,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,8.0,8.0,6.0
 19,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 19,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-19,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+19,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 20,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 20,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 20,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 20,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-21,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+21,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,9.0,9.0,7.0
 21,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 21,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-21,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+21,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
 22,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 22,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-22,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-22,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+22,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,6.0,6.0,3.0
+22,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 23,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 23,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 23,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -105,12 +105,12 @@
 25,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 26,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 26,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-26,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-26,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-27,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+26,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,6.0,6.0,3.0
+26,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
+27,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,8.0,8.0,6.0
 27,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 27,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-27,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+27,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 28,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 28,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 28,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -121,16 +121,16 @@
 29,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 30,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 30,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-30,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-30,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-31,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+30,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,9.0,9.0,6.0
+30,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
+31,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,9.0,9.0,7.0
 31,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 31,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-31,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+31,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
 32,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 32,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-32,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-32,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+32,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,8.0,8.0,5.0
+32,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 33,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 33,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 33,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -143,26 +143,26 @@
 35,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 35,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 35,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-36,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
-36,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-36,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-36,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+36,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,3,True,True,37.0,39.0,37.0
+36,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,1,1,True,True,37.0,37.0,34.0
+36,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,2,2,True,True,6.0,40.0,37.0
+36,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,2,4,True,True,6.0,40.0,38.0
 37,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 37,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-37,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-37,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+37,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+37,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 38,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 38,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 38,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 38,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 39,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 39,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-39,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-39,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+39,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,11.0,11.0,8.0
+39,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 40,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 40,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-40,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-40,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+40,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,12.0,12.0,9.0
+40,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 41,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 41,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 41,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -191,10 +191,10 @@
 47,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 47,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 47,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-48,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+48,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,12.0,12.0,10.0
 48,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 48,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-48,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+48,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 49,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 49,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 49,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -209,12 +209,12 @@
 51,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 52,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 52,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-52,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-52,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-53,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+52,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,14.0,14.0,11.0
+52,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,14.0,14.0,12.0
+53,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,6.0,6.0,4.0
 53,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 53,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-53,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+53,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 54,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 54,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 54,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -227,10 +227,10 @@
 56,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 56,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 56,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-57,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+57,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,6.0,6.0,4.0
 57,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 57,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-57,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+57,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 58,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 58,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 58,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -245,8 +245,8 @@
 60,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 61,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 61,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-61,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-61,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+61,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,11.0,11.0,8.0
+61,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 62,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 62,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 62,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -257,8 +257,8 @@
 63,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 64,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 64,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-64,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-64,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+64,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+64,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 65,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 65,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 65,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -293,32 +293,32 @@
 72,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 73,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 73,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-73,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-73,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-74,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+73,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,10.0,10.0,7.0
+73,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,10.0,10.0,8.0
+74,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,11.0,11.0,9.0
 74,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 74,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-74,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+74,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 75,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 75,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 75,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 75,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-76,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+76,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,11.0,11.0,9.0
 76,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 76,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-76,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-77,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+76,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
+77,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,10.0,10.0,8.0
 77,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 77,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-77,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-78,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+77,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,10.0,10.0,8.0
+78,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,6.0,6.0,4.0
 78,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 78,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-78,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+78,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 79,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 79,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-79,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-79,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+79,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,False,False,5.0,5.0,2.0
+79,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,5.0,5.0,3.0
 80,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 80,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 80,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -329,16 +329,16 @@
 81,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 82,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 82,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-82,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-82,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+82,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,8.0,8.0,5.0
+82,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 83,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 83,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 83,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 83,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 84,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 84,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-84,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-84,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+84,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+84,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 85,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 85,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 85,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -347,14 +347,14 @@
 86,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 86,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 86,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-87,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+87,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,9.0,9.0,7.0
 87,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 87,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-87,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-88,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+87,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
+88,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,6.0,6.0,4.0
 88,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 88,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-88,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+88,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 89,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 89,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 89,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -373,20 +373,20 @@
 92,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 93,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 93,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-93,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-93,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-94,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+93,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+93,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
+94,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,8.0,8.0,6.0
 94,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 94,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-94,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+94,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 95,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 95,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 95,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 95,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 96,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 96,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-96,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-96,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+96,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,8.0,8.0,5.0
+96,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 97,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 97,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 97,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -395,10 +395,10 @@
 98,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 98,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 98,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-99,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+99,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,12.0,12.0,10.0
 99,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 99,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-99,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+99,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 100,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 100,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 100,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -411,10 +411,10 @@
 102,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 102,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 102,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-103,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+103,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,8.0,8.0,6.0
 103,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 103,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-103,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+103,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 104,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 104,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 104,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -427,10 +427,10 @@
 106,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 106,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 106,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-107,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+107,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,12.0,12.0,10.0
 107,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 107,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-107,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+107,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 108,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 108,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 108,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -443,10 +443,10 @@
 110,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 110,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 110,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-111,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+111,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,7.0,7.0,5.0
 111,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 111,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-111,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+111,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 112,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 112,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 112,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -461,16 +461,16 @@
 114,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 115,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 115,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-115,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-115,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+115,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,6.0,6.0,3.0
+115,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 116,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 116,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 116,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 116,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-117,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+117,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,14.0,14.0,12.0
 117,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 117,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-117,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+117,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,14.0,14.0,12.0
 118,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 118,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 118,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -509,12 +509,12 @@
 126,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 127,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 127,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-127,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-127,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+127,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,13.0,13.0,10.0
+127,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,13.0,13.0,11.0
 128,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 128,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-128,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-128,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+128,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,10.0,10.0,7.0
+128,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,10.0,10.0,8.0
 129,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 129,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 129,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -533,8 +533,8 @@
 132,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 133,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 133,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-133,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-133,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+133,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,6.0,6.0,3.0
+133,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
 134,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 134,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 134,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -543,30 +543,30 @@
 135,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 135,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 135,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-136,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+136,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,12.0,12.0,10.0
 136,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 136,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-136,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-137,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+136,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
+137,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,11.0,11.0,9.0
 137,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 137,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-137,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+137,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 138,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 138,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 138,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 138,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 139,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 139,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-139,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-139,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+139,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+139,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 140,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 140,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-140,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-140,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+140,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,False,False,5.0,5.0,2.0
+140,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,5.0,5.0,3.0
 141,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 141,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-141,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-141,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+141,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,11.0,11.0,8.0
+141,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 142,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 142,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 142,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -627,14 +627,14 @@
 156,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 156,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 156,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-157,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+157,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,6.0,6.0,4.0
 157,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 157,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-157,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-158,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+157,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,6.0,6.0,4.0
+158,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,14.0,14.0,12.0
 158,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 158,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-158,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+158,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,14.0,14.0,12.0
 159,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 159,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 159,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -647,18 +647,18 @@
 161,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 161,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 161,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-162,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+162,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,10.0,10.0,8.0
 162,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 162,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-162,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+162,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,10.0,10.0,8.0
 163,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 163,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 163,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 163,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 164,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 164,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-164,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-164,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+164,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,14.0,14.0,11.0
+164,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,14.0,14.0,12.0
 165,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 165,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 165,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -669,8 +669,8 @@
 166,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 167,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 167,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-167,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-167,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+167,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,9.0,9.0,6.0
+167,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,9.0,9.0,7.0
 168,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 168,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 168,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -689,8 +689,8 @@
 171,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 172,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 172,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-172,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-172,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+172,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+172,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 173,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 173,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 173,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -717,24 +717,24 @@
 178,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 179,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 179,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-179,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-179,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+179,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,7.0,7.0,4.0
+179,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 180,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 180,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 180,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 180,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-181,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+181,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,7.0,7.0,5.0
 181,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 181,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-181,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+181,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,7.0,7.0,5.0
 182,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 182,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 182,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 182,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-183,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+183,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,11.0,11.0,9.0
 183,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 183,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-183,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+183,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,11.0,11.0,9.0
 184,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 184,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 184,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -743,10 +743,10 @@
 185,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 185,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 185,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-186,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+186,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,13.0,13.0,11.0
 186,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 186,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-186,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+186,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,13.0,13.0,11.0
 187,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 187,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 187,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
@@ -754,43 +754,43 @@
 188,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 188,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 188,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-188,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+188,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 189,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 189,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 189,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 189,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-190,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+190,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,8.0,8.0,6.0
 190,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 190,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-190,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+190,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 191,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 191,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 191,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 191,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-192,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+192,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,10.0,10.0,8.0
 192,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 192,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-192,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-193,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
-193,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
+192,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,10.0,10.0,8.0
+193,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,2,True,True,39.0,40.0,38.0
+193,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,1,2,True,True,39.0,40.0,37.0
 193,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 193,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
-194,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
+194,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,1,1,True,True,12.0,12.0,10.0
 194,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 194,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-194,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+194,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,12.0,12.0,10.0
 195,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 195,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-195,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-195,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+195,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,8.0,8.0,5.0
+195,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,8.0,8.0,6.0
 196,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 196,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 196,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
 196,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
 197,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 197,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
-197,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,
-197,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,0,0,False,False,,,
+197,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,1,1,True,True,10.0,10.0,7.0
+197,Stage 2 - Limmattal_bike_highway_underpasses → Both stages - Cycleway + Underpasses,2,3,1,1,1,True,True,10.0,10.0,8.0
 198,Stage 0 – Baseline Network → STAGE 1 - Limmattal_bike_highway,0,1,1,0,0,False,False,,,
 198,Stage 0 – Baseline Network → Stage 2 - Limmattal_bike_highway_underpasses,0,2,2,0,0,False,False,,,
 198,STAGE 1 - Limmattal_bike_highway → Both stages - Cycleway + Underpasses,1,3,2,0,0,False,False,,,

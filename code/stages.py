@@ -267,8 +267,9 @@ PACKAGES = {
         "appraisal": {
             "capital_cost_chf": 31103872, # Report -> 28422872 + 268100 ,  # Station-package CAPEX (CHF).
             "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
-            "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+            "capital_share": 0.60,   # Fraction of actual capital paid eligible for residual value.
             #WICHTIG: operational costs! 156672 CHF
+            "construction_co2_tonnes": 4547659.552,
             # "construction_co2_tonnes": 0.0  # Add a project-specific total when available.
             # Total construction emissions (tonnes CO2e), spread over construction years.
             # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
@@ -347,7 +348,8 @@ PACKAGES = {
         "appraisal": {
             "capital_cost_chf": 2688120, # Report -> 2688120 
             "lifetime_years": 40,  # ÜBERPRÜFEN!!!  Service life of the share valued below (years).
-            "capital_share": 0.60  # Fraction of actual capital paid eligible for residual value.
+            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
+            "construction_co2_tonnes": 430099.2
         }
     }
 }    
